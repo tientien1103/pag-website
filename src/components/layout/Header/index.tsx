@@ -17,30 +17,30 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   // const [openModal, setOpenModal] = useState<boolean>(false);
 
-  useLayoutEffect(() => {
-    if (window.scrollY > 0) {
-      setStickyHeader(true);
-    }
-    document.addEventListener("scroll", () => {
-      if (window.scrollY > 0) {
-        setStickyHeader(true);
-      } else {
-        setStickyHeader(false);
-      }
-    });
-    return () => document.removeEventListener("scroll", () => {});
-  }, []);
+  // useLayoutEffect(() => {
+  //   if (window.scrollY > 0) {
+  //     setStickyHeader(true);
+  //   }
+  //   document.addEventListener("scroll", () => {
+  //     if (window.scrollY > 0) {
+  //       setStickyHeader(true);
+  //     } else {
+  //       setStickyHeader(false);
+  //     }
+  //   });
+  //   return () => document.removeEventListener("scroll", () => {});
+  // }, []);
 
-  useEffect(() => {
-    if (window.innerWidth < 1024) {
-      setMobileMenuOpen(false);
-      window.requestAnimationFrame(() => window.scrollTo(0, 0));
-    }
-  }, [pathname]);
+  // useEffect(() => {
+  //   if (window.innerWidth < 1024) {
+  //     setMobileMenuOpen(false);
+  //     window.requestAnimationFrame(() => window.scrollTo(0, 0));
+  //   }
+  // }, [pathname]);
 
   return (
     <header
-      className={clsx(`sticky top-0 z-10 bg-white w-full`, {
+      className={clsx(`top-0 z-10 w-full bg-white`, {
         "transition-all duration-200": isStickyHeader,
       })}
     >
@@ -63,17 +63,18 @@ export default function Header() {
             <Image src="/svg/menu.svg" alt="" width={32} height={32} />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:items-center lg:gap-x-10 mr-96">
+        <Popover.Group className="mr-96 hidden lg:flex lg:items-center lg:gap-x-10">
           {NAVIGATION.map((item) => (
             <Link
               key={item.title}
               href={item.href}
-              className="text-lg font-bold text-primary group hover:-mt-2 hover:-mb-7 items-center flex flex-col"
+              className="group flex flex-col items-center text-lg font-bold text-primary hover:-mb-7 hover:-mt-2"
             >
               {item.title}
               <AiFillCaretUp
-                className={clsx("group-hover:block hidden text-[20px]", {
+                className={clsx("hidden text-[20px] group-hover:block", {
                   block: pathname === item.href,
+                  hidden: pathname !== item.href,
                 })}
               />
             </Link>
@@ -95,7 +96,7 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="inset-y-0 z-10 absolute top-0 h-screen w-4/5 overflow-y-auto bg-primary">
+        <Dialog.Panel className="absolute inset-y-0 top-0 z-10 h-screen w-4/5 overflow-y-auto bg-primary">
           <div className="flex items-center justify-between px-4 py-3.5">
             <Link href="/">
               <Logo className="w-[200px]" />
@@ -115,11 +116,11 @@ export default function Header() {
                 {NAVIGATION.map((item) => (
                   <div
                     key={item.href}
-                    className="flex flex-col border-y-[1px] w-full border-[#141414]"
+                    className="flex w-full flex-col border-y-[1px] border-[#141414]"
                   >
                     <Link
                       className={clsx(
-                        "text-lg font-semibold text-white mx-4 py-3",
+                        "mx-4 py-3 text-lg font-semibold text-white",
                         {
                           "text-secondary": pathname === item.href,
                         }

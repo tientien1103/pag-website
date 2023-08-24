@@ -10,15 +10,15 @@ export const NAVIGATION: INavigation[] = [
     title: "Trang chủ",
   },
   {
-    href: "#",
+    href: "/product",
     title: "Sản phẩm",
   },
   {
-    href: "#",
+    href: "/blog",
     title: "Blog",
   },
   {
-    href: "#",
+    href: "/contact",
     title: "Liên hệ",
   },
 ];

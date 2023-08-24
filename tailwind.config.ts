@@ -1,13 +1,22 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      animation: {
+        scroll: "scroll 25s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc(-230px * 8))" },
+        },
+      },
       container: {
         center: true,
         padding: {
@@ -23,6 +32,9 @@ const config: Config = {
       fontFamily: {
         sans: ["Barlow", "sans-serif"],
       },
+      fontSize: {
+        40: "40px",
+      },
       transitionProperty: {
         height: "height",
         width: "width",
@@ -30,5 +42,5 @@ const config: Config = {
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
