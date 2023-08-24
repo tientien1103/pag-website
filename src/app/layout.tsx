@@ -1,11 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-const inter = Space_Grotesk({
+const inter = Raleway({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
