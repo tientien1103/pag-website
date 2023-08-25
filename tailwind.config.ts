@@ -28,6 +28,7 @@ const config: Config = {
         secondary: "#6A7C92",
         thirdly: "#7A7A7A",
         accent: "#a99fc5",
+        blueText: "#4154f1",
       },
       fontFamily: {
         sans: ["Barlow", "sans-serif"],
@@ -38,6 +39,9 @@ const config: Config = {
       transitionProperty: {
         height: "height",
         width: "width",
+      },
+      boxShadow: {
+        "3xl": "8px 16px 15px 5px #949ab2",
       },
     },
   },
