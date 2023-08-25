@@ -23,7 +23,7 @@ export const FooterMenu: React.FC<FooterMenuProps> = ({
   items = [],
 }) => {
   return (
-    <ul className={clsx("flex flex-col gap-4", className)}>
+    <ul className={clsx("space-y-5", className)}>
       {items && items.length
         ? items.map((item) => <FooterMenuItem key={item.title} {...item} />)
         : null}

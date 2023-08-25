@@ -18,6 +18,7 @@ const Logo: React.FC<LogoProps> = ({
 }) => {
   return (
     <Image
+      loading="eager"
       className={`${className}`}
       priority
       width={width}

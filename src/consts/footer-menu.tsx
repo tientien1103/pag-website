@@ -3,23 +3,19 @@ import { FooterMenuItemProps } from "@/components/layout/Footer/Menu";
 export const FOOTER_SERVICES_MENU: FooterMenuItemProps[] = [
   {
     title: "Sản phẩm",
-    link: "#",
+    link: "/services",
   },
   {
     title: "eKYC",
-    link: "#",
+    link: "/services/ekyc",
   },
   {
     title: "Antifraud",
-    link: "#",
+    link: "/services/antifraud",
   },
   {
     title: "OCR",
-    link: "#",
-  },
-  {
-    title: "Lead Scoring",
-    link: "#",
+    link: "/services/lead-scoring",
   },
 ];
 
@@ -30,18 +26,14 @@ export const FOOTER_WORK_MENU: FooterMenuItemProps[] = [
   },
   {
     title: "Sản phẩm",
-    link: "#",
+    link: "/services",
   },
   {
     title: "Blog",
-    link: "#",
+    link: "/blogs",
   },
   {
     title: "Liên hệ",
-    link: "#",
+    link: "/contact",
   },
-  // {
-  //   title: "Contact us",
-  //   link: "#",
-  // },
 ];
