@@ -26,7 +26,7 @@ function Ekyc() {
           <p className="text-7xl font-bold text-primary" data-aos="fade-left">
             01
           </p>
-          <Link href="/services/ekyc">
+          <Link href="/ekyc-detail">
             <h3
               className="text-xl font-bold text-primary md:text-2xl"
               data-aos="fade-right"

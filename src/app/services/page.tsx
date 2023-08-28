@@ -9,7 +9,11 @@ function ServicePage() {
     <main className="min-h-screen overflow-hidden">
       <section className="mt-6">
         <div className="container max-w-6xl">
-          <SubBanner type="sản phẩm" product="ekyc - api hub - lead scoring" />
+          <SubBanner
+            type="sản phẩm"
+            product="ekyc - api hub - lead scoring"
+            image="/img/sub-banner.png"
+          />
         </div>
       </section>
 
