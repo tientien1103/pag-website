@@ -20,7 +20,7 @@ function LeadScoring() {
     <div className="mx-6 flex flex-col-reverse gap-4 md:mx-0 md:gap-0 lg:flex-row lg:gap-52">
       <div className="border-dashed border-neutral-400 md:border-l-2 lg:rounded-s-[60px] lg:rounded-bl-[60px] lg:border-b-2">
         <div data-aos="fade-left">
-          <Circle className="absolute hidden md:left-3 md:top-[70px] md:block lg:-left-3 lg:top-6" />
+          <Circle className="absolute hidden md:left-3 md:top-[70px] md:block lg:-left-3 lg:top-16" />
         </div>
         <div className="mb-16 flex w-full flex-col gap-5 md:my-12 md:ml-16 md:max-w-[650px] lg:max-w-[490px]">
           <p
@@ -29,7 +29,7 @@ function LeadScoring() {
           >
             03
           </p>
-          <Link href="/services/lead-scoring">
+          <Link href="/ocr-detail">
             <h3
               className="text-2xl font-bold text-primary"
               data-aos="fade-right"

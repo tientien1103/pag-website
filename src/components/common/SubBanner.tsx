@@ -6,10 +6,11 @@ import "aos/dist/aos.css";
 
 interface SubBannerProps {
   type: string;
+  image: string;
   product?: string;
 }
 
-function SubBanner({ type, product }: SubBannerProps) {
+function SubBanner({ type, product, image }: SubBannerProps) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -46,7 +47,7 @@ function SubBanner({ type, product }: SubBannerProps) {
         data-aos="fade-left"
       >
         <Image
-          src="/img/sub-banner.png"
+          src={image}
           alt=""
           fill
           className="object-contain"

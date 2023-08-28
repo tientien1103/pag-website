@@ -40,7 +40,7 @@ function ApiHub() {
           <p className="text-7xl font-bold text-primary" data-aos="fade-left">
             02
           </p>
-          <Link href="/services/api-hub">
+          <Link href="https://apix.vn/hub" target="_blank">
             <h3
               className="text-2xl font-bold text-primary"
               data-aos="fade-right"
