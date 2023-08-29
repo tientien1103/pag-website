@@ -1,5 +1,5 @@
 {
-  "name": "e9-website",
+  "name": "pag-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "@hookform/resolvers": "^3.2.0",
+    "@react-google-maps/api": "^2.19.2",
     "@sendgrid/mail": "^7.7.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "20.3.1",
