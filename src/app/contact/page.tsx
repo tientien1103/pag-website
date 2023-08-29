@@ -13,8 +13,9 @@ interface ContactValidation {
 }
 
 export default function ContactPage() {
+  const googleMapsApiKey: any = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: googleMapsApiKey,
   });
 
   const {
