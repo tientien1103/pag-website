@@ -24,11 +24,12 @@ const config: Config = {
         },
       },
       colors: {
-        primary: "#051441",
-        secondary: "#6A7C92",
+        primary: "#E0144C",
+        secondary: "#1f2937",
         thirdly: "#7A7A7A",
         accent: "#a99fc5",
         blueText: "#4154f1",
+        grey: "#595959",
       },
       fontFamily: {
         sans: ["Barlow", "sans-serif"],
@@ -42,6 +43,7 @@ const config: Config = {
       },
       boxShadow: {
         "3xl": "8px 16px 15px 5px #949ab2",
+        "4xl": "0px 0px 12px 0px rgba(0, 0, 0, 0.10)",
       },
     },
   },

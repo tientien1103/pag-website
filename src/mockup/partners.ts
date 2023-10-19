@@ -2,246 +2,70 @@ interface Partners {
   image: string;
 }
 
-const partnerArr: Partners[] = [
+export const partnerArr: Partners[] = [
   {
-    image: "/img/home/partner/techcombank.png",
+    image: "techcombank",
   },
   {
-    image: "/img/home/partner/vietbank.png",
+    image: "vietbank",
   },
   {
-    image: "/img/home/partner/cake.png",
+    image: "cake",
   },
   {
-    image: "/img/home/partner/vpbank.png",
+    image: "vpbank",
   },
   {
-    image: "/img/home/partner/vib.png",
+    image: "vib",
   },
   {
-    image: "/img/home/partner/techcombank.png",
+    image: "hdsaison",
   },
   {
-    image: "/img/home/partner/vietbank.png",
-  },
-  {
-    image: "/img/home/partner/cake.png",
-  },
-  {
-    image: "/img/home/partner/vpbank.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/techcombank.png",
-  },
-  {
-    image: "/img/home/partner/vietbank.png",
-  },
-  {
-    image: "/img/home/partner/cake.png",
-  },
-  {
-    image: "/img/home/partner/vpbank.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/techcombank.png",
-  },
-  {
-    image: "/img/home/partner/vietbank.png",
-  },
-  {
-    image: "/img/home/partner/cake.png",
-  },
-  {
-    image: "/img/home/partner/vpbank.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/hdsaison.png",
-  },
-  {
-    image: "/img/home/partner/vietcredit.png",
-  },
-  {
-    image: "/img/home/partner/ptf.png",
-  },
-  {
-    image: "/img/home/partner/shb-finance.png",
-  },
-  {
-    image: "/img/home/partner/fe-credit.png",
-  },
-  {
-    image: "/img/home/partner/hdsaison.png",
-  },
-  {
-    image: "/img/home/partner/vietcredit.png",
-  },
-  {
-    image: "/img/home/partner/ptf.png",
-  },
-  {
-    image: "/img/home/partner/shb-finance.png",
-  },
-  {
-    image: "/img/home/partner/fe-credit.png",
-  },
-  {
-    image: "/img/home/partner/hdsaison.png",
-  },
-  {
-    image: "/img/home/partner/vietcredit.png",
-  },
-  {
-    image: "/img/home/partner/ptf.png",
-  },
-  {
-    image: "/img/home/partner/shb-finance.png",
-  },
-  {
-    image: "/img/home/partner/fe-credit.png",
-  },
-  {
-    image: "/img/home/partner/hdsaison.png",
-  },
-  {
-    image: "/img/home/partner/vietcredit.png",
-  },
-  {
-    image: "/img/home/partner/ptf.png",
-  },
-  {
-    image: "/img/home/partner/shb-finance.png",
-  },
-  {
-    image: "/img/home/partner/fe-credit.png",
-  },
-  {
-    image: "/img/home/partner/momo.png",
-  },
-  {
-    image: "/img/home/partner/fundiin.png",
-  },
-  {
-    image: "/img/home/partner/wowmelo.png",
-  },
-  {
-    image: "/img/home/partner/easy-gop.png",
-  },
-  {
-    image: "/img/home/partner/atoma.png",
-  },
-  {
-    image: "/img/home/partner/momo.png",
-  },
-  {
-    image: "/img/home/partner/fundiin.png",
-  },
-  {
-    image: "/img/home/partner/wowmelo.png",
-  },
-  {
-    image: "/img/home/partner/easy-gop.png",
-  },
-  {
-    image: "/img/home/partner/atoma.png",
-  },
-  {
-    image: "/img/home/partner/momo.png",
-  },
-  {
-    image: "/img/home/partner/fundiin.png",
-  },
-  {
-    image: "/img/home/partner/wowmelo.png",
-  },
-  {
-    image: "/img/home/partner/easy-gop.png",
-  },
-  {
-    image: "/img/home/partner/atoma.png",
-  },
-  {
-    image: "/img/home/partner/momo.png",
-  },
-  {
-    image: "/img/home/partner/fundiin.png",
-  },
-  {
-    image: "/img/home/partner/wowmelo.png",
-  },
-  {
-    image: "/img/home/partner/easy-gop.png",
-  },
-  {
-    image: "/img/home/partner/atoma.png",
-  },
-  {
-    image: "/img/home/partner/f88.png",
-  },
-  {
-    image: "/img/home/partner/moneyveo.png",
-  },
-  {
-    image: "/img/home/partner/moneycat.png",
-  },
-  {
-    image: "/img/home/partner/tima.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/f88.png",
-  },
-  {
-    image: "/img/home/partner/moneyveo.png",
-  },
-  {
-    image: "/img/home/partner/moneycat.png",
-  },
-  {
-    image: "/img/home/partner/tima.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/f88.png",
-  },
-  {
-    image: "/img/home/partner/moneyveo.png",
-  },
-  {
-    image: "/img/home/partner/moneycat.png",
-  },
-  {
-    image: "/img/home/partner/tima.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
-  },
-  {
-    image: "/img/home/partner/f88.png",
-  },
-  {
-    image: "/img/home/partner/moneyveo.png",
-  },
-  {
-    image: "/img/home/partner/moneycat.png",
-  },
-  {
-    image: "/img/home/partner/tima.png",
-  },
-  {
-    image: "/img/home/partner/vib.png",
+    image: "ptf",
   },
 ];
-export default partnerArr;
+
+export const partnerArr2: Partners[] = [
+  {
+    image: "shb-finance",
+  },
+  {
+    image: "fe-credit",
+  },
+  {
+    image: "momo",
+  },
+  {
+    image: "fundiin",
+  },
+  {
+    image: "f88",
+  },
+  {
+    image: "tima",
+  },
+  {
+    image: "vib",
+  },
+  {
+    image: "wowmelo",
+  },
+  {
+    image: "easy-gop",
+  },
+  {
+    image: "atoma",
+  },
+
+  {
+    image: "moneyveo",
+  },
+  {
+    image: "moneycat",
+  },
+
+  {
+    image: "vietcredit",
+  },
+];
