@@ -1,62 +1,79 @@
-"use client"
-import partnerArr from "@/mockup/partners";
+"use client";
+import { partnerArr, partnerArr2 } from "@/mockup/partners";
+import Aos from "aos";
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 function Partnership() {
+  useEffect(() => {
+    Aos.init({
+      delay: 500,
+      duration: 800,
+      once: true,
+      disable: "mobile",
+    });
+  }, []);
   return (
-    <div className="relative w-auto space-y-20 overflow-hidden py-14">
-      <div className="flex w-[calc(250px*20)] animate-scroll flex-row gap-14">
-        {partnerArr.slice(0, 20).map((partner, i) => (
-          <Link href="#" key={i + partner.image}>
+    <div className="flex flex-col justify-center">
+      <h2
+        data-aos="zoom-in"
+        className="text-center text-[40px] font-bold text-primary"
+      >
+        Đối tác của PAG
+      </h2>
+      <div data-aos="fade-up-right" className="relative my-10">
+        <p className="flex h-full w-full whitespace-nowrap font-bold uppercase text-neutral-500 before:mr-10 before:block before:w-full before:translate-y-3 before:border-t-[0.5px] before:border-neutral-300 after:ml-10 after:block after:w-full after:translate-y-3 after:border-t-[0.5px] after:border-neutral-300">
+          Cộng sự
+        </p>
+      </div>
+      <div
+        data-aos="fade-up-right"
+        className="mx-auto grid grid-cols-2 gap-x-8 gap-y-5 md:grid-cols-7"
+      >
+        {partnerArr.map((partner) => (
+          <div key={partner.image} className="relative h-14 w-32">
             <Image
-              src={partner.image}
+              src={`/img/home/partner/${partner.image}.png`}
+              fill
               alt=""
-              width={230}
-              height={49}
-              className="cursor-pointer self-center object-cover hover:scale-110"
+              className="object-contain"
             />
-          </Link>
+          </div>
         ))}
       </div>
-      <div className="flex w-[calc(250px*20)] animate-scroll flex-row gap-10 overflow-hidden">
-        {partnerArr.slice(20, 40).map((partner, i) => (
-          <Link href="#" key={i + partner.image}>
+      <div data-aos="fade-up-left" className="relative my-14">
+        <p className="flex h-full w-full whitespace-nowrap font-bold uppercase text-neutral-500 before:mr-10 before:block before:w-full before:translate-y-3 before:border-t-[0.5px] before:border-neutral-300 after:ml-10 after:block after:w-full after:translate-y-3 after:border-t-[0.5px] after:border-neutral-300">
+          Khách hàng
+        </p>
+      </div>
+      <div
+        data-aos="fade-up-left"
+        className="mx-auto grid grid-cols-2 gap-x-8 gap-y-5 md:grid-cols-7"
+      >
+        {partnerArr2.slice(0, 7).map((partner) => (
+          <div key={partner.image} className="relative h-14 w-32">
             <Image
-              src={partner.image}
+              src={`/img/home/partner/${partner.image}.png`}
+              fill
               alt=""
-              width={230}
-              height={49}
-              className="cursor-pointer self-center  object-cover hover:scale-110"
+              className="object-contain"
             />
-          </Link>
+          </div>
         ))}
       </div>
-      <div className="flex w-[calc(250px*20)] animate-scroll flex-row gap-9 overflow-hidden">
-        {partnerArr.slice(40, 60).map((partner, i) => (
-          <Link href="#" key={i + partner.image}>
+      <div
+        data-aos="fade-up-left"
+        className="mx-auto mt-12 grid grid-cols-2 gap-x-8 gap-y-5 md:grid-cols-6"
+      >
+        {partnerArr2.slice(7, 13).map((partner) => (
+          <div key={partner.image} className="relative h-14 w-32">
             <Image
-              src={partner.image}
+              src={`/img/home/partner/${partner.image}.png`}
+              fill
               alt=""
-              width={230}
-              height={49}
-              className="cursor-pointer self-center object-cover hover:scale-110"
+              className="object-contain"
             />
-          </Link>
-        ))}
-      </div>
-      <div className="flex w-[calc(250px*20)] animate-scroll flex-row gap-8 overflow-hidden">
-        {partnerArr.slice(60, 80).map((partner, i) => (
-          <Link href="#" key={i + partner.image}>
-            <Image
-              src={partner.image}
-              alt=""
-              width={230}
-              height={49}
-              className="cursor-pointer self-center object-cover hover:scale-110"
-            />
-          </Link>
+          </div>
         ))}
       </div>
     </div>

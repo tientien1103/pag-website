@@ -8,26 +8,27 @@ import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 import Menu from "./Menu";
 import { NAVIGATION } from "./Navigation";
 import Logo from "@/components/common/Logo";
+import Container from "@/components/common/Container";
 
 export default function Header() {
   const pathname = usePathname();
-  // const [isStickyHeader, setStickyHeader] = useState<boolean>(false);
+  const [isStickyHeader, setStickyHeader] = useState<boolean>(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   // const [openModal, setOpenModal] = useState<boolean>(false);
 
-  // useLayoutEffect(() => {
-  //   if (window.scrollY > 0) {
-  //     setStickyHeader(true);
-  //   }
-  //   document.addEventListener("scroll", () => {
-  //     if (window.scrollY > 0) {
-  //       setStickyHeader(true);
-  //     } else {
-  //       setStickyHeader(false);
-  //     }
-  //   });
-  //   return () => document.removeEventListener("scroll", () => {});
-  // }, []);
+  useLayoutEffect(() => {
+    if (window.scrollY > 0) {
+      setStickyHeader(true);
+    }
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 0) {
+        setStickyHeader(true);
+      } else {
+        setStickyHeader(false);
+      }
+    });
+    return () => document.removeEventListener("scroll", () => {});
+  }, []);
 
   useEffect(() => {
     if (window.innerWidth < 768) {
@@ -45,13 +46,20 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   const onChangeMobileMenu = useCallback(() => {
-    // setStickyHeader(true);
     setMobileMenuOpen((prev) => !prev);
   }, []);
 
   return (
-    <header className="relative inset-x-0 top-0 z-10 transition-colors duration-200">
-      <div className="container max-w-screen-xl">
+    <header
+      className={clsx(
+        "relative inset-x-0 top-0 z-10 transition-colors duration-200",
+        {
+          "sticky bg-white shadow-lg": isStickyHeader,
+          "absolute bg-transparent": !isStickyHeader,
+        }
+      )}
+    >
+      <Container>
         <nav
           className="flex items-center justify-between py-3"
           aria-label="Global"
@@ -65,9 +73,9 @@ export default function Header() {
           />
           <ul
             className={clsx(
-              "hidden items-center gap-x-12 font-bold text-white md:static md:flex md:h-auto md:flex-row md:bg-transparent md:px-0 md:pt-0 md:text-primary",
+              "hidden items-center gap-x-12 font-bold text-primary md:static md:flex md:h-auto md:flex-row md:bg-transparent md:px-0 md:pt-0",
               {
-                "absolute left-0 right-0 top-[54px] !flex h-screen flex-col bg-primary px-4 pt-4":
+                "absolute left-0 right-0 top-[54px] !flex h-screen flex-col bg-primary px-4 pt-4 text-white":
                   mobileMenuOpen,
               }
             )}
@@ -89,7 +97,7 @@ export default function Header() {
             })}
           </ul>
         </nav>
-      </div>
+      </Container>
     </header>
   );
 }

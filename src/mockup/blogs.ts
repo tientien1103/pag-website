@@ -7,15 +7,15 @@ interface Blogs {
 
 const BLogsList: Blogs[] = [
   {
-    title: "[funix.edu.vn] Lễ trao học bổng FUNiX AI connect with Kalapa",
+    title: "[funix.edu.vn] Lễ trao học bổng FUNiX AI connect with PAG",
     subTitle:
-      "Chiều ngày 5/6 tại tầng 13 tòa nhà FPT đã diễn ra buổi lễ trao học bổng FUNiX AI Connect with Kalapa cho 10 sinh viên xuất sắc nhất với tổng giá trị lên đến 200 triệu. Tham gia buổi lễ có đại diện nhà tài trợ anh Nguyễn Thành Nhân – CEO Kalapa, anh […]",
+      "Chiều ngày 5/6 tại tầng 13 tòa nhà FPT đã diễn ra buổi lễ trao học bổng FUNiX AI Connect with PAG cho 10 sinh viên xuất sắc nhất với tổng giá trị lên đến 200 triệu. Tham gia buổi lễ có đại diện nhà tài trợ anh Nguyễn Thành Nhân – CEO PAG, anh […]",
   },
   {
     title:
-      "[vnexpress.net] Kalapa cùng FUNiX phát triển nhân lực Machine Learning, Data Science",
+      "[vnexpress.net] PAG cùng FUNiX phát triển nhân lực Machine Learning, Data Science",
     subTitle:
-      "Học bổng tổng giá trị 200 triệu đồng, hướng đến đối tượng là sinh viên từ năm thứ ba, người đi làm trong các lĩnh vực công nghệ thông tin, khoa học tự nhiên, kỹ thuật, kinh tế. Trao học bổng AI Connect with Kalapa là hoạt động nằm trong khuôn khổ quỹ khuyến học hàng năm dành cho các trường đại học và viện nghiên cứu của Kalapa.",
+      "Học bổng tổng giá trị 200 triệu đồng, hướng đến đối tượng là sinh viên từ năm thứ ba, người đi làm trong các lĩnh vực công nghệ thông tin, khoa học tự nhiên, kỹ thuật, kinh tế. Trao học bổng AI Connect with PAG là hoạt động nằm trong khuôn khổ quỹ khuyến học hàng năm dành cho các trường đại học và viện nghiên cứu của PAG.",
   },
   {
     title:
@@ -27,12 +27,12 @@ const BLogsList: Blogs[] = [
     title:
       "Khởi động cuộc thi ”Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam”",
     subTitle:
-      "Kế hoạch tổ chức cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam” (Kalapa’s CreditScoring Challenge) vừa được chính thức công bố. Đây là cuộc thi do Kalapa – nền tảng cho vay thay thế tại Việt Nam, tổ chức với sự đồng hành của Công ty cổ phần Vay Mượn, […]",
+      "Kế hoạch tổ chức cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam” (PAG’s CreditScoring Challenge) vừa được chính thức công bố. Đây là cuộc thi do PAG – nền tảng cho vay thay thế tại Việt Nam, tổ chức với sự đồng hành của Công ty cổ phần Vay Mượn, […]",
   },
   {
-    title: "Chung kết Cuộc thi Kalapa’s Credit Scoring challenge",
+    title: "Chung kết Cuộc thi PAG’s Credit Scoring challenge",
     subTitle:
-      "Ông Nguyễn Thành Nhân – CEO Công ty Kalapa Công nghệ học máy sẽ được sử dụng cho các giải pháp trong cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng” để xây dựng các mô hình chấm điểm tín dụng bởi có độ chính xác cao. Từ đó cho kết quả nhanh và […]",
+      "Ông Nguyễn Thành Nhân – CEO Công ty PAG Công nghệ học máy sẽ được sử dụng cho các giải pháp trong cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng” để xây dựng các mô hình chấm điểm tín dụng bởi có độ chính xác cao. Từ đó cho kết quả nhanh và […]",
   },
   {
     title:
