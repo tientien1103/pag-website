@@ -9,7 +9,7 @@ function BlogsPage() {
     <main className="min-h-screen overflow-hidden">
       <section className="mt-6">
         <div className="container max-w-6xl">
-          <SubBanner type="blog" image="/img/blog-banner.png" />
+          <SubBanner type="blog" />
         </div>
       </section>
 

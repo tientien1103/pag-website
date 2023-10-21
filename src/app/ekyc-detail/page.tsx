@@ -1,5 +1,4 @@
 import DetailBanner from "@/components/common/DetailBanner";
-import SubBanner from "@/components/common/SubBanner";
 import Image from "next/image";
 import React from "react";
 

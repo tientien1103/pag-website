@@ -10,7 +10,6 @@ function OcrDetail() {
           <DetailBanner
             title="OCR"
             subTitle="Số hóa dữ liệu"
-            image="/img/orc-detail-banner.png"
             description="OCR (Số hóa dữ liệu) là sản phẩm đem lại nhiều tiện ích trong lĩnh vực tài chính khi kết hợp với eKYC để đem lại kết quả tốt hơn."
           />
         </div>
