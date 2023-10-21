@@ -42,11 +42,11 @@ export default function Footer() {
               </Link>
               <p className="text-lg font-bold leading-snug text-white">
                 <span>Email: </span>
-                <span className="text-accent">contact@e9.digital</span>
+                <span className="text-accent">sale@pagvn.tech</span>
               </p>
               <p className="text-lg font-bold leading-snug text-white">
                 <span>Số điện thoại: </span>
-                <span className="text-accent">0246 327 1144</span>
+                <span className="text-accent">090 8501 090</span>
               </p>
               {/* <div className="flex gap-4">
               {SOCIAL_ICONS.map((item) => (
@@ -59,15 +59,16 @@ export default function Footer() {
                 <span className="text-xl font-bold">TRỤ SỞ CHÍNH</span>
                 <br />
                 <span className="text-lg text-accent">
-                  Tầng 2, số 58 Tố Hữu, quận Nam Từ Liêm, thành phố Hà Nội
+                  59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ
+                  Chí Minh
                 </span>
               </p>
               <p className="leading-snug text-white">
                 <span className="text-xl font-bold">VĂN PHÒNG ĐẠI DIỆN</span>
                 <br />
                 <span className="text-lg text-accent">
-                  Tầng 8, số 99 Nguyễn Thị Minh Khai, Quận 1, thành phố Hồ Chí
-                  Minh
+                  59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ
+                  Chí Minh
                 </span>
               </p>
             </div>
