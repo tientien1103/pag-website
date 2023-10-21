@@ -11,7 +11,6 @@ function EkycDetail() {
           <DetailBanner
             title="eKYC"
             subTitle="Định danh khách hàng"
-            image="/img/ekyc-detail-banner.png"
             description="eKYC là định danh khách hàng điện tử được ứng dụng nhiều trong chấm điểm tín dụng giúp đem lại sự thuận tiện và tin cậy."
           />
         </div>

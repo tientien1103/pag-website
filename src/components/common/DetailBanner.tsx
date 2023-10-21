@@ -8,15 +8,9 @@ interface DetailBannerProps {
   title: string;
   subTitle: string;
   description: string;
-  image: string;
 }
 
-function DetailBanner({
-  title,
-  subTitle,
-  description,
-  image,
-}: DetailBannerProps) {
+function DetailBanner({ title, subTitle, description }: DetailBannerProps) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -44,18 +38,6 @@ function DetailBanner({
         <p className="mx-7 text-start text-sm font-bold tracking-wider text-neutral-500 md:mx-0 md:text-base md:tracking-normal">
           {description}
         </p>
-      </div>
-      <div
-        className="relative mt-4 h-[280px] w-full md:mt-0 md:w-[350px] lg:h-[409px] lg:w-[531px]"
-        data-aos="fade-left"
-      >
-        <Image
-          src={image}
-          alt=""
-          fill
-          className="object-contain"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
       </div>
     </div>
   );

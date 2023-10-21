@@ -18,7 +18,7 @@ function Ekyc() {
   }, []);
   return (
     <div className="mx-6 flex flex-col-reverse gap-4 md:mx-0 md:gap-0 lg:flex-row lg:gap-52">
-      <div className="mb-16 flex w-full flex-col gap-5 md:ml-16 md:max-w-[670px] lg:max-w-[490px]">
+      <div className="mb-16 flex w-full flex-col gap-5 md:max-w-[670px] lg:max-w-[490px]">
         <Link href="/ekyc-detail">
           <h3
             className="text-xl font-bold text-primary md:text-2xl"

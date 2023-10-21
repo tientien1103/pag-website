@@ -5,6 +5,7 @@ import Logo from "@/components/common/Logo";
 import SocialIcon, { SocialIconProps } from "@/components/common/Social";
 import FooterMenu from "./Menu";
 import { FOOTER_SERVICES_MENU, FOOTER_WORK_MENU } from "@/consts/footer-menu";
+import Container from "@/components/common/Container";
 
 export interface INavigation {
   href: string;
@@ -28,10 +29,10 @@ export interface INavigation {
 export default function Footer() {
   return (
     <footer className="relative w-full bg-primary">
-      <div className="container lg:max-w-5xl" aria-label="Global">
-        <div className="md:py-19 flex flex-col-reverse items-start gap-4 py-6 md:flex-row md:items-center md:gap-7 lg:gap-36">
-          <div className="flex flex-col gap-7 md:flex-row lg:gap-36">
-            <div className="lg:space-y-7">
+      <Container>
+        <div className="flex flex-col-reverse items-start gap-4 md:w-[90%] md:flex-row md:items-center md:justify-between md:gap-7 md:py-10 lg:gap-36">
+          <div className="flex flex-col gap-7 md:flex-row lg:gap-40">
+            <div className="w-full md:max-w-[300px]">
               <Link href="/" className="-m-1.5 w-fit p-1.5">
                 <Logo
                   className="w-[90px] md:mb-6 md:w-[150px]"
@@ -41,12 +42,14 @@ export default function Footer() {
                 />
               </Link>
               <p className="text-lg font-bold leading-snug text-white">
-                <span>Email: </span>
-                <span className="text-accent">sale@pagvn.tech</span>
+                sale@pagvn.tech
               </p>
               <p className="text-lg font-bold leading-snug text-white">
-                <span>Số điện thoại: </span>
-                <span className="text-accent">090 8501 090</span>
+                090 8501 090
+              </p>
+              <p className="leading-snug text-white">
+                59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí
+                Minh
               </p>
               {/* <div className="flex gap-4">
               {SOCIAL_ICONS.map((item) => (
@@ -54,15 +57,8 @@ export default function Footer() {
               ))}
             </div> */}
             </div>
-            <div className="flex w-[360px] flex-col gap-6 md:mt-8">
-              <p className="leading-snug text-white">
-                <span className="text-xl font-bold">TRỤ SỞ CHÍNH</span>
-                <br />
-                <span className="text-lg text-accent">
-                  59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ
-                  Chí Minh
-                </span>
-              </p>
+            {/* <div className="flex w-[360px] flex-col gap-6 md:mt-8">
+              
               <p className="leading-snug text-white">
                 <span className="text-xl font-bold">VĂN PHÒNG ĐẠI DIỆN</span>
                 <br />
@@ -71,20 +67,17 @@ export default function Footer() {
                   Chí Minh
                 </span>
               </p>
-            </div>
+            </div> */}
           </div>
-          <div className="flex h-full items-start justify-start font-bold">
+          <div className="mt-8 flex h-full items-start justify-start font-bold md:mt-0">
             {/* <FooterMenu
               className="hidden w-full md:block md:w-1/2"
               items={FOOTER_SERVICES_MENU}
             /> */}
-            <FooterMenu
-              className="hidden w-full md:block"
-              items={FOOTER_WORK_MENU}
-            />
+            <FooterMenu className="block w-full" items={FOOTER_WORK_MENU} />
           </div>
         </div>
-      </div>
+      </Container>
       <p className="p-5 text-center text-xl text-white">
         Copyright © {new Date().getFullYear()} PAG Tech
       </p>

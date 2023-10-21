@@ -28,7 +28,7 @@ export default function ContactPage() {
     <main className="min-h-screen overflow-hidden">
       <section className="mt-6">
         <div className="container max-w-6xl">
-          <SubBanner type="liên hệ" image="/img/contact-banner.png" />
+          <SubBanner type="liên hệ" />
         </div>
       </section>
 
