@@ -16,11 +16,10 @@ function ProductList() {
   return (
     <div className="flex flex-col justify-between gap-12 md:flex-row">
       <h2
-        className="text-2xl font-bold text-primary md:text-4xl"
+        className="text-center text-2xl font-bold text-primary md:text-start md:text-4xl"
         data-aos="zoom-in"
       >
-        Sản phẩm
-        <br /> của chúng tôi
+        Sản phẩm của chúng tôi
       </h2>
       <div className="grid grid-cols-1 grid-rows-1 gap-20 text-center font-medium sm:grid-cols-2 sm:grid-rows-[minmax(0,_auto)] md:mx-20 md:text-start lg:mx-0">
         <div

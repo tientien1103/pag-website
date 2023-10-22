@@ -1,8 +1,5 @@
 "use client";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 
 interface SubBannerProps {
   type: string;
@@ -10,33 +7,15 @@ interface SubBannerProps {
 }
 
 function SubBanner({ type, product }: SubBannerProps) {
-  useEffect(() => {
-    AOS.init({
-      delay: 500,
-      duration: 600,
-      once: true,
-      disable: "mobile",
-    });
-  }, []);
   return (
     <div className="space-y-4 pt-4 text-center md:pt-10">
-      <h1
-        className="text-center text-5xl font-bold uppercase text-primary md:text-6xl"
-        data-aos="fade-down"
-        data-aos-duration={700}
-      >
+      <h1 className="text-center text-5xl font-bold uppercase text-primary md:text-6xl">
         {type}
       </h1>
-      <p
-        className="text-sm font-bold text-primary md:text-base"
-        data-aos="fade-up"
-      >
+      <p className="text-sm font-bold text-primary md:text-base">
         PAG - Công ty công nghệ Dữ liệu lớn và Học máy
       </p>
-      <p
-        className="hidden text-lg font-bold uppercase text-secondary md:block"
-        data-aos="fade-up"
-      >
+      <p className="hidden text-lg font-bold uppercase text-secondary md:block">
         {product}
       </p>
     </div>

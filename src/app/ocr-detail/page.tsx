@@ -1,3 +1,4 @@
+import Container from "@/components/common/Container";
 import DetailBanner from "@/components/common/DetailBanner";
 import Image from "next/image";
 import React from "react";
@@ -16,7 +17,7 @@ function OcrDetail() {
       </section>
 
       <section className="pt-24">
-        <div className="container flex max-w-6xl flex-col-reverse justify-around lg:flex-row-reverse">
+        <Container className="flex flex-col-reverse justify-around lg:flex-row-reverse">
           <div className="mt-4 w-full space-y-5 px-5 md:mt-0 md:px-8 lg:max-w-[500px] lg:px-0">
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
               OCR là gì?
@@ -46,14 +47,14 @@ function OcrDetail() {
 
           <div className="relative h-[263px] w-full self-center md:w-[532px]">
             <Image
-              src="/img/ocr-detail/software.png"
+              src="/img/ocr-detail/ocr1.webp"
               alt=""
               fill
               className="object-contain"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
-        </div>
+        </Container>
       </section>
 
       <section className="pt-24">
@@ -107,7 +108,7 @@ function OcrDetail() {
           <div className="mt-8 flex flex-col justify-around md:flex-row-reverse">
             <div className="relative h-[182px] w-[300px] self-center">
               <Image
-                src="/img/ocr-detail/test.png"
+                src="/img/ocr-detail/ocr2.webp"
                 alt=""
                 fill
                 className="object-contain"
@@ -139,7 +140,7 @@ function OcrDetail() {
           <div className="mt-16 flex flex-col justify-around md:flex-row">
             <div className="relative h-[215px] w-[394px] md:h-[350px] md:w-[550px] lg:h-[300px]">
               <Image
-                src="/img/ocr-detail/benefit.png"
+                src="/img/ocr-detail/ocr3.webp"
                 alt=""
                 fill
                 className="object-contain"

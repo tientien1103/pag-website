@@ -30,7 +30,7 @@ export default function Footer() {
   return (
     <footer className="relative w-full bg-primary">
       <Container>
-        <div className="flex flex-col-reverse items-start gap-4 md:w-[90%] md:flex-row md:items-center md:justify-between md:gap-7 md:py-10 lg:gap-36">
+        <div className="flex flex-col-reverse items-start gap-4 md:w-[80%] md:flex-row md:items-center md:justify-between md:gap-7 md:py-10 lg:gap-36">
           <div className="flex flex-col gap-7 md:flex-row lg:gap-40">
             <div className="w-full md:max-w-[300px]">
               <Link href="/" className="-m-1.5 w-fit p-1.5">

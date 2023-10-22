@@ -21,10 +21,10 @@ function Media() {
     <div>
       <div className="flex flex-row justify-between">
         <h2
-          className="text-center text-2xl font-bold text-primary md:text-40"
+          className="text-start text-xl font-bold text-primary md:text-center md:text-5xl"
           data-aos="zoom-in"
         >
-          Truyền thông về chúng tôi?
+          Truyền thông
         </h2>
         <Link data-aos="zoom-in" href={"/blogs"}>
           <Button>View more &#8594;</Button>

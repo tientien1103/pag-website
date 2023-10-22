@@ -26,7 +26,7 @@ function Value() {
         className="space-y-4 text-base font-bold text-secondary md:space-y-10 md:py-10 md:text-2xl"
         data-aos="fade-down-right"
       >
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-4">
           <li className="flex w-full flex-col items-center gap-4 md:max-w-[350px]">
             <Image
               src="/svg/home/value/value1.svg"

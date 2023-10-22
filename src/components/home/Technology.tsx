@@ -31,7 +31,7 @@ function Technology() {
             <h3 className="my-4 text-center text-xl font-bold text-primary md:text-start md:text-3xl">
               Deep Learning
             </h3>
-            <p className="text-base text-secondary">
+            <p className="text-center text-base text-secondary md:text-start">
               Bằng cách huấn luyện mô hình trên tập dữ liệu lớn, thuật toán Học
               sâu có thể tự động mã hoá và ghi nhớ những thông tin đặc trưng,
               đồng thời tự cải thiện kết quả, điều mà các thuật toán thông
@@ -55,7 +55,7 @@ function Technology() {
             <h3 className="my-4 text-center text-xl font-bold text-primary md:text-right md:text-3xl">
               Big Data
             </h3>
-            <p className="text-base text-secondary">
+            <p className="text-center text-base text-secondary md:text-right">
               Hệ thống dữ liệu lớn (Big Data) lưu trữ hàng chục tỷ bản ghi dữ
               liệu, được ứng dụng rộng rãi trong việc phân tích kinh doanh, giúp
               đưa ra các thống kê và dự đoán về xu hướng trong tương lai.
