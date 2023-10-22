@@ -1,3 +1,4 @@
+import Container from "@/components/common/Container";
 import SubBanner from "@/components/common/SubBanner";
 import ApiHub from "@/components/services/ApiHub";
 import Ekyc from "@/components/services/Ekyc";
@@ -8,31 +9,27 @@ function ServicePage() {
   return (
     <main className="min-h-screen overflow-hidden">
       <section className="mt-6">
-        <div className="container max-w-6xl">
-          <SubBanner
-            type="sản phẩm"
-            product="ekyc - api hub - lead scoring"
-            image="/img/sub-banner.png"
-          />
-        </div>
+        <Container>
+          <SubBanner type="sản phẩm" product="ekyc - api hub - lead scoring" />
+        </Container>
       </section>
 
-      <section className="mt-28">
-        <div className="container max-w-7xl md:mx-20 lg:mx-36">
+      <section className="mt-8 md:mt-20">
+        <Container>
           <Ekyc />
-        </div>
+        </Container>
       </section>
 
       <section>
-        <div className="container max-w-7xl md:mx-20 lg:mx-36">
+        <Container>
           <ApiHub />
-        </div>
+        </Container>
       </section>
 
       <section>
-        <div className="container max-w-7xl md:mx-20 lg:mx-36">
+        <Container>
           <LeadScoring />
-        </div>
+        </Container>
       </section>
     </main>
   );
