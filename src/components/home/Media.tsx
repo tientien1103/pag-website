@@ -7,8 +7,9 @@ import "aos/dist/aos.css";
 import BLogsList from "@/mockup/blogs";
 import CardBlog from "../common/CardBlog";
 import Button from "../common/Button";
+import { Locale } from "../../../i18n.config";
 
-function Media() {
+function Media({ page, lang }: { page: any; lang: Locale }) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -24,10 +25,10 @@ function Media() {
           className="text-start text-xl font-bold text-primary md:text-center md:text-5xl"
           data-aos="zoom-in"
         >
-          Truyền thông
+          {page.home.media.title}
         </h2>
-        <Link data-aos="zoom-in" href={"/blogs"}>
-          <Button>View more &#8594;</Button>
+        <Link data-aos="zoom-in" href={`/${lang}/blogs`}>
+          <Button>{page.common.button} &#8594;</Button>
         </Link>
       </div>
 

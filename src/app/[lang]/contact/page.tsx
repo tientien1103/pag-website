@@ -1,18 +1,27 @@
-"use client";
-import SubBanner from "@/components/common/SubBanner";
 import React from "react";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import { ContactSchema } from "@/schema/Schema";
 import Container from "@/components/common/Container";
 import Image from "next/image";
+import { Locale } from "../../../../i18n.config";
+import { getDictionary } from "@/libs/dictionary";
 
-export default function ContactPage() {
+export default async function ContactPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const { page } = await getDictionary(lang);
   return (
     <main className="min-h-screen overflow-hidden">
       <section className="mt-6">
         <div className="container max-w-6xl">
-          <SubBanner type="liên hệ" />
+          <div className="space-y-4 pt-4 text-center md:pt-10">
+            <h1 className="text-center text-5xl font-bold uppercase text-primary md:text-6xl">
+              {page.contact.title}
+            </h1>
+            <p className="text-sm font-bold text-primary md:text-base">
+              {page.contact.subtitle}
+            </p>
+          </div>
         </div>
       </section>
 
@@ -20,11 +29,13 @@ export default function ContactPage() {
         <Container className="flex flex-col gap-8 md:flex-row md:gap-5">
           <div className="space-y-4">
             <h3 className="leading-14 text-4xl text-primary">
-              Thông tin liên hệ
+              {page.contact.subtitle2}
             </h3>
 
             <div className="space-y-2">
-              <p className="font-semibold text-secondary">Địa chỉ</p>
+              <p className="font-semibold text-secondary">
+                {page.contact.address}
+              </p>
               <div className="flex gap-2">
                 <Image
                   src="/svg/contact/location-icon.svg"
@@ -33,13 +44,14 @@ export default function ContactPage() {
                   height={24}
                 />
                 <p className="max-w-[300px] text-neutral-600">
-                  59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ
-                  Chí Minh
+                  {page.contact.address2}
                 </p>
               </div>
             </div>
             <div className="space-y-2">
-              <p className="font-semibold text-secondary">Điện thoại</p>
+              <p className="font-semibold text-secondary">
+                {page.contact.phone}
+              </p>
               <div className="flex gap-2">
                 <Image
                   src="/svg/contact/phone-icon.svg"
@@ -47,7 +59,7 @@ export default function ContactPage() {
                   width={24}
                   height={24}
                 />
-                <p className="text-neutral-600">090 8501 090</p>
+                <p className="text-neutral-600">{page.contact.phone2}</p>
               </div>
             </div>
             <div className="space-y-2">
@@ -59,7 +71,7 @@ export default function ContactPage() {
                   width={24}
                   height={24}
                 />
-                <p className="text-neutral-600">sale@pagvn.tech</p>
+                <p className="text-neutral-600">{page.contact.email}</p>
               </div>
             </div>
           </div>

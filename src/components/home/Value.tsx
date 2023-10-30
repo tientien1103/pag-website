@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Value() {
+function Value({ page }: any) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -19,7 +19,7 @@ function Value() {
         className="text-center text-2xl font-bold text-primary md:text-40"
         data-aos="zoom-in"
       >
-        Giá trị của chúng tôi
+        {page.home.value.title}
       </h2>
 
       <ul
@@ -35,9 +35,7 @@ function Value() {
               height={35}
             />
             <hr className="h-[1px] w-[70px] border-secondary" />
-            <p className="pl-4 text-center">
-              Đi đầu trong Chống gian lận / giả mạo
-            </p>
+            <p className="pl-4 text-center">{page.home.value.value1}</p>
           </li>
           <li className="flex w-full flex-col items-center gap-4 md:max-w-[350px]">
             <Image
@@ -47,9 +45,7 @@ function Value() {
               height={35}
             />
             <hr className="h-[1px] w-[70px] border-secondary" />
-            <p className="pl-4 text-center">
-              Minh bạch trong xác thực thông tin
-            </p>
+            <p className="pl-4 text-center">{page.home.value.value2}</p>
           </li>
           <li className="flex w-full flex-col items-center gap-4 md:max-w-[350px]">
             <Image
@@ -59,9 +55,7 @@ function Value() {
               height={35}
             />
             <hr className="h-[1px] w-[70px] border-secondary" />
-            <p className="pl-4 text-center">
-              Rút ngắn thời gian thẩm định khoản vay dưới 30 phút
-            </p>
+            <p className="pl-4 text-center">{page.home.value.value3}</p>
           </li>
         </div>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -73,7 +67,7 @@ function Value() {
               height={35}
             />
             <hr className="h-[1px] w-[70px] border-secondary" />
-            <p className="pl-4 text-center">Giảm tỷ lệ nợ xấu</p>
+            <p className="pl-4 text-center">{page.home.value.value4}</p>
           </li>
           <li className="flex w-full flex-col items-center gap-4 md:max-w-[350px]">
             <Image
@@ -83,7 +77,7 @@ function Value() {
               height={35}
             />
             <hr className="h-[1px] w-[70px] border-secondary" />
-            <p className="pl-4 text-center">Tiết kiệm chi phí vận hành</p>
+            <p className="pl-4 text-center">{page.home.value.value5}</p>
           </li>
         </div>
       </ul>

@@ -1,0 +1,94 @@
+{
+  "navigation": {
+    "home": "Trang chủ",
+    "services": "Sản phẩm",
+    "blog": "Blog",
+    "contact": "Liên hệ"
+  },
+
+  "page": {
+    "common": {
+      "button": "Tìm hiểu thêm"
+    },
+    "home": {
+      "title": "Vươn tới tương lai \n tài chính",
+      "description": "Pag Tech là đối tác của những tổ chức tài chính hàng đầu, chúng tôi luôn coi uy tín là nhiệm vụ hàng đầu thể hiện qua chất lượng dịch vụ sản phẩm và luôn cam kết với Qúy khách hàng, đối tác, nhà đầu tư là không ngừng đổi mới để tạo ra giá trị khác biệt trong công việc.",
+      "value": {
+        "title": "Giá trị của chúng tôi",
+        "value1": "Dịch vụ chuyên nghiệp",
+        "value2": "An toàn và bảo mật",
+        "value3": "Làm việc hiệu quả",
+        "value4": "Giảm tỷ lệ nợ xấu",
+        "value5": "Tiết kiệm chi phí"
+      },
+      "services": {
+        "title": "Sản phẩm của chúng tôi",
+        "item1": {
+          "name": "eKYC",
+          "description": "Định danh xác thực khách hàng điện tử, cho phép định danh khách hàng 100% online dựa vào các thông tin sinh trắc học, nhận diện khách hàng bằng AI,…"
+        },
+        "item2": {
+          "name": "Flex",
+          "description": "Hệ thống phần mềm quản lý và giao dịch chứng khoán được thiết kế dựa trên kiến trúc nền tảng tài chính (financial framework), với các tham số linh hoạt"
+        },
+        "item3": {
+          "name": "OCR",
+          "description": "Phân tích văn bản của một tài liệu và phiên dịch các ký tự thành mã có thể sử dụng để xử lý dữ liệu."
+        }
+      },
+      "technology": {
+        "title": "Công nghệ & Tính năng",
+        "item1": {
+          "name": "Deep Learning",
+          "description": "Khả năng hoạt động tốt với dữ liệu phi cấu trúc. Điều này đặc biệt phù hợp khi phần lớn dữ liệu kinh doanh hiện nay đều không có cấu trúc. Hình ảnh, văn bản và giọng nói được cho là những định dạng dữ liệu phổ biến nhất được các doanh nghiệp sử dụng."
+        },
+        "item2": {
+          "name": "Big Data",
+          "description": "Big data giúp doanh nghiệp phân tích, thấu hiểu và nhắm đúng khách hàng mục tiêu. Hiểu được hành vi, xu hướng mua hàng của khách hàng, đồng thời dự đoán tình hình thị trường tương lai để đưa ra các quyết định kinh doanh chính xác hơn."
+        }
+      },
+      "about_us": {
+        "title": "Tại sao lựa chọn chúng tôi?",
+        "item1": {
+          "name": "Đội ngũ kỹ sư tài năng",
+          "description": "Xây dựng được đội ngũ kỹ sư năng động, chuyên nghiệp với kiến thức chuyên ngành chuyên sâu."
+        },
+        "item2": {
+          "name": "Công nghệ AI",
+          "description": "Giúp khách hàng ứng dụng các công nghệ mới một cách hiệu quả và chi phí thấp."
+        },
+        "item3": {
+          "name": "Giải pháp uy tín",
+          "description": "PAG mang đến cho khách hàng các giải pháp toàn diện trong nhiều lĩnh vực."
+        }
+      },
+      "partnership": {
+        "title": "Đối tác của PAG",
+        "subtitle1": "Cộng sự",
+        "subtitle2": "Khách hàng"
+      },
+      "media": {
+        "title": "Truyền thông"
+      }
+    },
+    "services": {
+      "title": "Sản phẩm",
+      "subtitle": "eKyc - Flex - OCR"
+    },
+    "contact": {
+      "title": "liên hệ",
+      "subtitle": "PAG - Công ty Công nghệ dữ liệu",
+      "subtitle2": "Thông tin liên hệ",
+      "address": "Địa chỉ",
+      "address2": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh",
+      "phone": "Điện thoại",
+      "phone2": "090 8501 090",
+      "email": "sale@pagvn.tech"
+    }
+  },
+  "footer": {
+    "phone": "090 8501 090",
+    "mail": "sale@pagvn.tech",
+    "address": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh"
+  }
+}
