@@ -4,7 +4,6 @@ import Image from "next/image";
 import Logo from "@/components/common/Logo";
 import SocialIcon, { SocialIconProps } from "@/components/common/Social";
 import FooterMenu from "./Menu";
-import { FOOTER_SERVICES_MENU, FOOTER_WORK_MENU } from "@/consts/footer-menu";
 import Container from "@/components/common/Container";
 import { Locale } from "../../../../i18n.config";
 import { getDictionary } from "@/libs/dictionary";
