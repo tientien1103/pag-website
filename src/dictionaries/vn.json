@@ -1,0 +1,213 @@
+{
+  "navigation": {
+    "home": "Trang chủ",
+    "services": "Sản phẩm",
+    "blog": "Blog",
+    "contact": "Liên hệ"
+  },
+
+  "page": {
+    "common": {
+      "button": "Tìm hiểu thêm"
+    },
+    "home": {
+      "title": "Vươn tới tương lai \n tài chính",
+      "description": "Pag Tech là đối tác của những tổ chức tài chính hàng đầu, chúng tôi luôn coi uy tín là nhiệm vụ hàng đầu thể hiện qua chất lượng dịch vụ sản phẩm và luôn cam kết với Qúy khách hàng, đối tác, nhà đầu tư là không ngừng đổi mới để tạo ra giá trị khác biệt trong công việc.",
+      "value": {
+        "title": "Giá trị của chúng tôi",
+        "value1": "Dịch vụ chuyên nghiệp",
+        "value2": "An toàn và bảo mật",
+        "value3": "Làm việc hiệu quả",
+        "value4": "Giảm tỷ lệ nợ xấu",
+        "value5": "Tiết kiệm chi phí"
+      },
+      "services": {
+        "title": "Sản phẩm của chúng tôi",
+        "item1": {
+          "name": "eKYC",
+          "description": "Định danh xác thực khách hàng điện tử, cho phép định danh khách hàng 100% online dựa vào các thông tin sinh trắc học, nhận diện khách hàng bằng AI,…"
+        },
+        "item2": {
+          "name": "Callbot",
+          "description": "Ứng dụng callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
+        },
+        "item3": {
+          "name": "OCR",
+          "description": "Phân tích văn bản của một tài liệu và phiên dịch các ký tự thành mã có thể sử dụng để xử lý dữ liệu."
+        }
+      },
+      "technology": {
+        "title": "Công nghệ & Tính năng",
+        "item1": {
+          "name": "Deep Learning",
+          "description": "Khả năng hoạt động tốt với dữ liệu phi cấu trúc. Điều này đặc biệt phù hợp khi phần lớn dữ liệu kinh doanh hiện nay đều không có cấu trúc. Hình ảnh, văn bản và giọng nói được cho là những định dạng dữ liệu phổ biến nhất được các doanh nghiệp sử dụng."
+        },
+        "item2": {
+          "name": "Big Data",
+          "description": "Big data giúp doanh nghiệp phân tích, thấu hiểu và nhắm đúng khách hàng mục tiêu. Hiểu được hành vi, xu hướng mua hàng của khách hàng, đồng thời dự đoán tình hình thị trường tương lai để đưa ra các quyết định kinh doanh chính xác hơn."
+        }
+      },
+      "about_us": {
+        "title": "Tại sao lựa chọn chúng tôi?",
+        "item1": {
+          "name": "Đội ngũ kỹ sư tài năng",
+          "description": "Xây dựng được đội ngũ kỹ sư năng động, chuyên nghiệp với kiến thức chuyên ngành chuyên sâu."
+        },
+        "item2": {
+          "name": "Công nghệ AI",
+          "description": "Giúp khách hàng ứng dụng các công nghệ mới một cách hiệu quả và chi phí thấp."
+        },
+        "item3": {
+          "name": "Giải pháp uy tín",
+          "description": "PAG mang đến cho khách hàng các giải pháp toàn diện trong nhiều lĩnh vực."
+        }
+      },
+      "partnership": {
+        "title": "Đối tác của PAG",
+        "subtitle1": "Cộng sự",
+        "subtitle2": "Khách hàng"
+      },
+      "media": {
+        "title": "Truyền thông"
+      }
+    },
+    "services": {
+      "title": "Sản phẩm",
+      "subtitle": "eKyc - Flex - OCR",
+      "item1": {
+        "name": "eKYC - Định danh khách hàng",
+        "description": "eKYC (viết tắt của electronic Know Your Customer) là hình thức định danh và xác thực khách hàng thông qua việc ứng dụng công nghệ để xác thực danh tính của khách hàng dựa trên các dữ liệu thu thập được là hình ảnh, video chân dung khách hàng và giấy tờ tùy thân của khách hàng là chứng minh nhân dân, căn cước công dân hoặc hộ chiếu và được đối chiếu với các cơ sở dữ liệu để xác nhận danh tính của khách hàng.",
+        "description2": "Hình thức định danh điện tử (eKYC) có thể thay thế và đáp ứng đủ các tiêu chí về tính chính xác, an toàn, bảo mật so với hình thức KYC (Know Your Customer) – hình thức định danh truyền thống, xác thực khách hàng dựa trên thông tin do nhân sự của ngân hàng, tổ chức kinh doanh thu thập."
+      },
+      "item2": {
+        "name": "Callbot",
+        "description": "Trước đây gọi điện thoại vẫn là kênh giao tiếp truyền thống chủ yếu giữa khách hàng và doanh nghiệp. Tuy nhiên bộ phận dịch vụ khách hàng thường xuyên thiếu nguồn lực để có thể xử lý hết tất cả các vấn đề của khách hàng. Ngày nay với sự phát triển của công nghệ, các giải pháp tổng đài gọi tự động như Callbot đang được các doanh nghiệp ứng dụng rất phổ biến, thay thế cho phương pháp truyền thống."
+      },
+      "item3": {
+        "name": "OCR - Công nghệ nhận dạng chữ",
+        "description": "Khá nhiều lần chúng ta nghe đến cụm từ OCR nhưng lại không thực sự hiểu ocr là gì? Nhiều người chỉ hình dung nó như một công nghệ được tích hợp trong máy scan để nâng cao khả năng nhận dạng. Thực tế, OCR là một thuật ngữ viết tắt của cụm từ Optical Character Recognition. Nó còn có tên gọi khác là nhận dạng ký tự quang học.",
+        "description2": "OCR chuyên dùng để nhập dữ liệu và truyền tải dữ liệu. Nhờ phần mềm nhận dạng chữ ocr, những văn bản số hóa, tìm kiếm và chỉnh sửa sẽ được thực hiện điện tử. Đồng thời, chúng giúp tiết kiệm không gian lưu trữ tài liệu bằng việc hiển thị trên trực tiếp."
+      }
+    },
+    "ekyc_detail": {
+      "title": "eKYC",
+      "subTitle": "Định danh khách hàng",
+      "description": "eKYC là định danh khách hàng điện tử được ứng dụng nhiều trong chấm điểm tín dụng giúp đem lại sự thuận tiện và tin cậy.",
+      "kyc": {
+        "question": "KYC là gì?",
+        "definition": "KYC (Know Your Customer) là quy trình để xác định và xác minh danh tính của khách hàng khi mở tài khoản và định kỳ theo thời gian."
+      },
+      "ekyc": {
+        "question": "eKyc là gì?",
+        "definition": "eKYC là định danh khách hàng điện tử và phát triển của công nghệ và để đơn giản hóa các thủ tục, giấy tờ, tạo thuận lợi cho khách hàng, hiện nay các ngân hàng ở nhiều quốc gia với sự chấp thuận của cơ quan quản lý có thẩm quyền, đã và đang chuyển sang hình thức nhận biết khách hàng qua phương thức điện tử."
+      },
+      "technology": {
+        "title": "Các công nghệ được áp dụng trong eKYC",
+        "technology1": "Công nghệ OCR (Optical Character Recognition): Công nghệ OCR được sử dụng để nhận dạng và trích xuất thông tin từ các tài liệu quan trọng như giấy tờ tùy thân, hộ chiếu, chứng minh nhân dân. ",
+        "technology2": "Công nghệ Facematch: Công nghệ này dựa trên việc so sánh dữ liệu hình ảnh khách hàng cung cấp với các hình ảnh mẫu đã được xác minh.",
+        "technology3": "Công nghệ Fraud Detection: Công nghệ này giúp phát hiện các hành vi gian lận trong quá trình eKYC và các giao dịch tài chính sau đó.",
+        "technology4": "Công nghệ Liveness Detection: Công nghệ Liveness Detection giúp ngăn chặn việc sử dụng khuôn mặt giả mạo để xác minh danh tính. "
+      },
+      "benefit": {
+        "title": "Lợi ích chúng tôi đem lại",
+        "item1": {
+          "title": "Các lợi ích từ công nghệ eKYC đối với người sử dụng dịch vụ",
+          "benefit1": "Giao dịch tiện lợi, mọi lúc mọi nơi. Chỉ với máy tính, điện thoại có gắn camera và kết nối với Internet, khách hàng có thể đăng ký mở tài khoản, thẻ tín dụng ở bất cứ đâu mà không cần đến ngân hàng giao dịch vào giờ hành chính.",
+          "benefit2": "Giúp khách hàng tiết kiệm thời gian và chi phí cho việc di chuyển đến ngân hàng hoặc tổ chức tài chính để xác minh danh tính của mình. Khách hàng có thể hoàn thành quá trình xác minh một cách nhanh chóng và thuận tiện trên thiết bị di động hoặc máy tính.",
+          "benefit3": "Giúp bảo mật thông tin khách hàng, giảm nguy cơ rò rỉ thông tin khách hàng vì quá trình xác minh được thực hiện trực tuyến và dữ liệu được lưu trữ trong các cơ sở dữ liệu an toàn."
+        },
+        "item2": {
+          "title": "Các lợi ích từ công nghệ eKYC đối với doanh nghiệp, tổ chức",
+          "subtitle": "Với việc áp dụng công nghệ hiện đại, eKYC đem lại lợi ích rất lớn cho cả khách hàng và các tổ chức cung ứng sản phẩm dịch vụ.",
+          "benefit1": "Tiết kiệm chi phí.",
+          "benefit2": "Tăng trải nghiệm người dùng.",
+          "benefit3": "Tăng cường bảo mật dữ liệu người dùng."
+        }
+      }
+    },
+    "ocr_detail": {
+      "title": "OCR",
+      "subtitle": "Số hóa dữ liệu",
+      "description": "OCR (Số hóa dữ liệu) là sản phẩm đem lại nhiều tiện ích trong lĩnh vực tài chính khi kết hợp với eKYC để đem lại kết quả tốt hơn.",
+      "definition": {
+        "title": "OCR là gì?",
+        "description": "OCR là thuật ngữ được viết tắt bởi cụm từ Optical Character Recognition (dịch là: nhận dạng ký tự quang học). Đây là ứng dụng công nghệ chuyên dùng để đọc text ở file ảnh. Được biết đến là một công cụ scan kỹ thuật số chuyên nhận dạng các ký tự, chữ viết tay, hay chữ đánh máy, công nghệ này chuyên dùng để truyền tải, nhập liệu dữ liệu. Đặc biệt, ở OCR có khả năng kỹ thuật số nhiều dưới nhiều dạng tài liệu khác nhau: hóa đơn, hộ chiếu, danh thiếp, tài liệu…",
+        "description2": "Đến với OCR, những văn bản số hóa, tìm kiếm và chỉnh sửa sẽ được thực hiện điện tử. Đồng thời, chúng giúp tiết kiệm không gian lưu trữ tài liệu bằng việc hiển thị trên trực tiếp."
+      },
+
+      "why": {
+        "question": "Vì sao nên sử dụng OCR?",
+        "because1": "OCR có khả năng hỗ trợ người mắc bệnh mù và khiếm thị, những người có ảnh hưởng về thị giác. Bởi, OCR có khả năng quét và đọc các từ trên màn hình. Từ đây, những người gặp vấn đề thị giác có thể dễ dàng hiểu được chúng.",
+        "because2": "OCR có khả năng tạo ra những nội dung văn bản riêng của quét tài liệu giúp chúng có thể dễ dàng tìm kiếm và xác định vị trí tài liệu dựa trên từ khóa. Đồng thời, OCR cũng cho phép nhanh nhẹn hơn trong việc chỉnh sửa và xử lý văn bản.",
+        "because3": "OCR đảm bảo chức năng cải thiện hiệu quả và nhanh chóng cho công việc văn phòng cũng như năng suất cao. Bởi, hầu hết trong quá trình làm việc ở văn phòng nhu cầu scan (quét) tài liệu ngày một lớn. Điều này sẽ giúp tiết kiệm thời gian, đồng thời cập nhập dữ liệu nhanh, chính xác nhất cho người dùng."
+      },
+      "combine": {
+        "title": "OCR khi kết hợp với eKYC",
+        "detail": "Sản phẩm của PAG kết hợp giữa OCR và định danh khách hàng eKYC nhằm đem đến giải pháp tối ưu cho doanh nghiệp, cung cấp các thông tin chính xác nhanh chóng vượt bậc so với sử dụng phương pháp thủ công và tin cậy trong xác minh danh tính khách hàng."
+      },
+      "benefit": {
+        "title": "Lợi ích công nghệ OCR đem lại khi sử dụng sản phẩm của chúng tôi",
+        "item1": {
+          "title": "OCR và những ứng dụng thực tế",
+          "benefit1": "Có lẽ, chúng ta đều đã từng một lần được sử dụng OCR nhưng không để ý, vì chúng ta thường chỉ hay sử dụng chúng một cách gián tiếp dựa trên máy scanner",
+          "benefit2": "OCR được coi như một ứng dụng phần mềm có khả năng tích hợp trực tiếp vào máy tính hay một phần cứng bất kỳ.",
+          "benefit3": "Phần mềm ứng dụng OCR đang được ứng dụng tại nhiều cơ quan doanh nghiệp tại VIệt Nam phải kể đến IONE. Công nghệ IONE là một sản phẩm nổi bật của FSI – Doanh nghiệp hàng đầu trong lĩnh vực chuyển đổi số tại Việt Nam."
+        },
+        "item2": {
+          "title": "Ưu điểm nổi bật của IONE – một sản phẩm ứng dụng công nghệ OCR",
+          "benefit1": "Nhận dạng tiếng Việt chính xác lên đến 98%",
+          "benefit2": "Số hóa giản đồ, hình ảnh đạt độ chính xác trên 90%",
+          "benefit3": "Xử lý song song, đạt hiệu suất 6s/trang",
+          "benefit4": "Sẵn sàng tích hợp với các hệ thống của khách hàng",
+          "benefit5": "Cơ chế học máy giúp hệ thống tự động nâng cao độ chính xác."
+        }
+      }
+    },
+    "callbot_detail": {
+      "title": "Callbot",
+      "subtitle": "Bot điện thoại",
+      "description": "Callbot là một giải pháp ứng dụng trí tuệ nhân tạo được ví như “tổng đài viên ảo”.",
+      "definition": {
+        "title": "Callbot là gì?",
+        "description": "Callbot là một tổng đài viên ảo được xây dựng dựa trên công nghệ AI, có khả năng tiếp nhận hoặc thực hiện các cuộc gọi đến và đi với khách hàng, đồng thời xử lý, phân loại yêu cầu hoặc hỗ trợ nối máy với các bộ phận chuyên môn trong một số trường hợp.",
+        "description2": "Ứng dụng callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
+      },
+
+      "activities": {
+        "question": "Cách Callbot hoạt động",
+        "action1": "Nhận dạng và chuyển giọng nói thành văn bản: Câu thoại của khách hàng sẽ được máy ghi lại, sau đó chuyển thành văn bản chữ viết (dựa vào công nghệ Speech-to-text STT) để làm dữ liệu đầu vào của hệ thống.",
+        "action2": "Hiểu ngôn ngữ tự nhiên: Văn bản chữ viết được tiến hành phân tích nhờ công nghệ hiểu ngôn ngữ tự nhiên (Natural Language Understanding – NLU) để xác định ý định và thực thể được đề cập tới.",
+        "action3": "Quản lý hội thoại: Hệ thống quản lý hội thoại (dialog management) sẽ đối chiếu truy vấn của người dùng với hệ cơ sở dữ liệu và kịch bản có sẵn, nhằm lựa chọn câu trả lời phù hợp dưới dạng văn bản viết.",
+        "action4": "Chuyển văn bản thành giọng nói: Câu trả lời dạng văn bản sẽ được đọc bởi giọng nói tổng hợp. Từ đây, khách hàng nhận được phản hồi của callbot dưới dạng câu nói tự nhiên như đang tương tác với người thật."
+      },
+      "benefit": {
+        "title": "Lợi ích của Callbot trong nâng cao hiệu quả làm việc và kinh doanh",
+        "item1": {
+          "title": "Cải thiện quan hệ khách hàng nhờ những hỗ trợ liên tục, chính xác và 24/7",
+          "benefit1": "Nhờ tích hợp những công nghệ tiên tiến về xử lý ngôn ngữ và tiếng nói, cùng hệ cơ sở dữ liệu có sẵn, callbot có đủ năng lực để giải quyết các yêu cầu thường xuyên của khách hàng trong thời gian ngắn nhất, đảm bảo tính chính xác về thông tin.",
+          "benefit2": "Với hiệu suất làm việc ổn định suốt 24/7, bất kể ngày đêm, sẵn sàng phục vụ khách hàng bất cứ khi nào, callbot giúp cải thiện đáng kể trải nghiệm khách hàng."
+        },
+        "item2": {
+          "title": "Cá nhân hóa trải nghiệm khách hàng",
+          "benefit1": "Hiện nay, hai yếu tố cốt lõi được khách hàng quan tâm khi trải nghiệm dịch vụ chăm sóc chính là tốc độ và tính cá nhân hóa. Xét về cả hai yếu tố này, callbot vượt trội hơn hẳn so với IVR.",
+          "benefit2": "Nhờ khả năng xác định nhu cầu, ý muốn của khách hàng, callbot có thể phản hồi hiệu quả, đúng trọng tâm, chạm đúng “nỗi đau” của khách hàng."
+        }
+      }
+    },
+    "contact": {
+      "title": "liên hệ",
+      "subtitle": "PAG - Công ty Công nghệ dữ liệu",
+      "subtitle2": "Thông tin liên hệ",
+      "address": "Địa chỉ",
+      "address2": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh",
+      "phone": "Điện thoại",
+      "phone2": "090 8501 090",
+      "email": "sale@pagvn.tech"
+    }
+  },
+  "footer": {
+    "phone": "090 8501 090",
+    "mail": "sale@pagvn.tech",
+    "address": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh"
+  }
+}

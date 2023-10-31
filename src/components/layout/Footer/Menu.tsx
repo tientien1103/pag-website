@@ -9,14 +9,14 @@ export interface FooterMenuProps {
 
 export interface FooterMenuItemProps {
   className?: string;
-  link: string;
+  href: string;
   title: string;
 }
 
-export interface FooterMenuGroupProps {
-  className?: string;
-  menus: FooterMenuProps[];
-}
+// export interface FooterMenuGroupProps {
+//   className?: string;
+//   menus: FooterMenuProps[];
+// }
 
 export const FooterMenu: React.FC<FooterMenuProps> = ({
   className = "",
@@ -33,13 +33,13 @@ export const FooterMenu: React.FC<FooterMenuProps> = ({
 
 export const FooterMenuItem: React.FC<FooterMenuItemProps> = ({
   className = "",
-  link,
+  href,
   title,
 }) => {
   return (
     <li>
       <Link
-        href={link}
+        href={href}
         className={clsx("text-base font-semibold text-white", className)}
       >
         {title}
@@ -48,17 +48,17 @@ export const FooterMenuItem: React.FC<FooterMenuItemProps> = ({
   );
 };
 
-export const FooterMenuGroup: React.FC<FooterMenuGroupProps> = ({
-  className = "",
-  menus = [],
-}) => {
-  return (
-    <div className={clsx("flex gap-4", className)}>
-      {menus && menus.length
-        ? menus.map((item) => <FooterMenu key={item.key} {...item} />)
-        : null}
-    </div>
-  );
-};
+// export const FooterMenuGroup: React.FC<FooterMenuGroupProps> = ({
+//   className = "",
+//   menus = [],
+// }) => {
+//   return (
+//     <div className={clsx("flex gap-4", className)}>
+//       {menus && menus.length
+//         ? menus.map((item) => <FooterMenu key={item.key} {...item} />)
+//         : null}
+//     </div>
+//   );
+// };
 
 export default FooterMenu;

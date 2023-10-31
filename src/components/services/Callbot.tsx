@@ -4,10 +4,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Button from "../common/Button";
 import Image from "next/image";
-import Circle from "../common/Circle";
 import Link from "next/link";
+import { Locale } from "../../../i18n.config";
 
-function ApiHub() {
+function Callbot({ page, lang }: { page: any; lang: Locale }) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -23,7 +23,7 @@ function ApiHub() {
         data-aos="fade-right"
       >
         <Image
-          src="/img/services/api-hub.webp"
+          src="/img/services/callbot.webp"
           alt=""
           fill
           className="object-contain"
@@ -32,22 +32,17 @@ function ApiHub() {
       </div>
       <div className="flex flex-col justify-center">
         <div className="mx-6 mb-16 space-y-5 md:mx-0 md:ml-16 md:max-w-[640px] lg:max-w-[450px]">
-          <Link href="https://apix.vn/hub" target="_blank">
-            <h3
-              className="text-2xl font-bold text-primary"
-              data-aos="fade-right"
-            >
-              APIX - API Hub đầu tiên tại Việt Nam
-            </h3>
-          </Link>
+          <h3 className="text-2xl font-bold text-primary" data-aos="fade-right">
+            {page.services.item2.name}
+          </h3>
+
           <p className="font-medium text-neutral-500" data-aos="fade-left">
-            Nơi các cá nhân và doanh nghiệp tìm kiếm, trải nghiệm, kết nối với
-            hàng trăm API thuộc nhiều lĩnh vực khác nhau
+            {page.services.item2.description}
           </p>
           <div data-aos="fade-right">
-            <Link href="https://apix.vn/hub" target="_blank">
+            <Link href={`/${lang}/callbot-detail`}>
               <Button className="mt-5 self-center md:self-start">
-                Tìm hiểu thêm
+                {page.common.button} &#8594;
               </Button>
             </Link>
           </div>
@@ -57,4 +52,4 @@ function ApiHub() {
   );
 }
 
-export default ApiHub;
+export default Callbot;

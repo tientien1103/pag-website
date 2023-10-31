@@ -6,49 +6,56 @@ import Technology from "@/components/home/Technology";
 import AboutUs from "@/components/home/AboutUs";
 import Media from "@/components/home/Media";
 import Container from "@/components/common/Container";
+import { Locale } from "../../../i18n.config";
+import { getDictionary } from "@/libs/dictionary";
 
-export default function Home() {
+export default async function Home({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const { page } = await getDictionary(lang);
   return (
     <main className="min-h-screen bg-white">
       <section className="w-full pb-24 pt-10 md:pt-24 lg:pb-60">
         <Container>
-          <Banner />
+          <Banner page={page} lang={lang} />
         </Container>
       </section>
 
       <section className="w-full bg-gray-100 py-16">
         <Container>
-          <Value />
+          <Value page={page} />
         </Container>
       </section>
 
       <section className="w-full py-28">
         <Container>
-          <ProductList />
+          <ProductList page={page} />
         </Container>
       </section>
 
       <section className="w-full py-24">
         <Container>
-          <Technology />
+          <Technology page={page} />
         </Container>
       </section>
 
       <section className="w-full bg-gray-200 py-32">
         <div className="container max-w-6xl">
-          <AboutUs />
+          <AboutUs page={page} />
         </div>
       </section>
 
       <section className="w-full pt-36">
         <Container>
-          <Partnership />
+          <Partnership page={page} />
         </Container>
       </section>
 
       <section className="w-full pt-36">
         <Container>
-          <Media />
+          <Media page={page} lang={lang} />
         </Container>
       </section>
     </main>

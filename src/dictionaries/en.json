@@ -1,0 +1,213 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+
+  "page": {
+    "common": {
+      "button": "Explore more"
+    },
+    "home": {
+      "title": "Reach your \n financial future",
+      "description": "Pag Tech is a partner of leading financial institutions, and we always consider reputation as our top priority through product and service quality. We are committed to continuous innovation for customers, partners, and investors, creating different value for our work.",
+      "value": {
+        "title": "Our values",
+        "value1": "Professional services",
+        "value2": "Safe and reliable",
+        "value3": "Work efficiency",
+        "value4": "Reduce bad debt ratio",
+        "value5": "Cost savings"
+      },
+      "services": {
+        "title": "Our products",
+        "item1": {
+          "name": "eKYC",
+          "description": "Electronic customer authentication, allowing 100% online identification of customers based on biometric information, using AI to identify customers, ..."
+        },
+        "item2": {
+          "name": "Callbot",
+          "description": "Callbot applications are becoming a new trend, opening up opportunities for businesses with a large number of customers to enhance digitization and provide the best experience for customers."
+        },
+        "item3": {
+          "name": "OCR",
+          "description": "Analyze the text of the document and convert characters into code that can be used to process data."
+        }
+      },
+      "technology": {
+        "title": "Technology & Features",
+        "item1": {
+          "name": "Deep Learning",
+          "description": "Can handle unstructured data well. This is especially true when most business data today is unstructured. Image, text and voice are considered to be the most common data formats used by enterprises."
+        },
+        "item2": {
+          "name": "Big Data",
+          "description": "Big data helps companies analyze, understand and target their right customers. Understand customers' buying behaviors and trends, and predict the future market situation, so as to make more accurate business decisions."
+        }
+      },
+      "about_us": {
+        "title": "Why choose us?",
+        "item1": {
+          "name": "Team of talented engineers",
+          "description": "Establish a dynamic and professional team of engineers with in-depth specialized knowledge."
+        },
+        "item2": {
+          "name": "AI technology",
+          "description": "Assist customers in applying new technologies with low cost and efficiency."
+        },
+        "item3": {
+          "name": "Reputable solution",
+          "description": "PAG provides customers with comprehensive solutions in multiple fields."
+        }
+      },
+      "partnership": {
+        "title": "PAG Partners",
+        "subtitle1": "Partners",
+        "subtitle2": "Customers"
+      },
+      "media": {
+        "title": "Media"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "eKyc - Flex - OCR",
+      "item1": {
+        "name": "eKYC - electronic Know Your Customer",
+        "description": "EKYC (Electronic Know Your Customer) is a form of identity verification and authentication that uses application technology to verify customer identity based on collected customer photos, video portraits, and ID card data. Citizenship or passport, and verify with the database to confirm the customer's identity.",
+        "description2": "Compared to KYC (Know Your Customer), eKYC (eKYC) can replace and meet all standards of accuracy, security, and confidentiality. KYC is a traditional form of customer authentication based on information collected by bank and commercial organization personnel."
+      },
+      "item2": {
+        "name": "Callbot",
+        "description": "In the past, telephone was still the traditional communication channel between customers and enterprises. However, customer service departments often lack the resources to address all customer issues. Nowadays, with the development of technology, automated call center solutions such as Callbot are widely used by enterprises, replacing traditional methods."
+      },
+      "item3": {
+        "name": "OCR - Optical Character Recognition",
+        "description": "Many times we hear the term OCR but don't really understand what OCR is? Many people just envision it as a technology built into scanners to improve identification capabilities. In fact, OCR is an acronym for Optical Character Recognition. It is also known as optical character recognition.",
+        "description2": "OCR is specifically designed for data input and transmission. Thanks to OCR software, digital text, search, and editing will be done electronically. At the same time, they save document storage space by displaying directly."
+      }
+    },
+    "ekyc_detail": {
+      "title": "eKYC",
+      "subTitle": "Customer identification",
+      "description": "eKYC is an electronic customer identification that is widely used in credit scoring to help bring convenience and reliability.",
+      "kyc": {
+        "question": "What is KYC?",
+        "definition": "KYC (Know Your Customer) is the process to identify and verify a customer's identity when opening an account and periodically over time."
+      },
+      "ekyc": {
+        "question": "What is eKYC?",
+        "definition": "EKYC is an electronic customer identification and technology development that has been approved by regulatory authorities in many countries to simplify procedures, document work, and facilitate customers, We have identified and are currently identifying customers electronically."
+      },
+      "technology": {
+        "title": "Technologies used in eKYC",
+        "technology1": "OCR (Optical Character Recognition): OCR technology is used to identify and extract information from important documents such as ID cards, passports, and ID cards.",
+        "technology2": "Facematch: This technology is based on comparing customer provided image data with validated sample images.",
+        "technology3": "Fraud Detection: This technology helps detect fraudulent activities during the eKYC process and subsequent financial transactions.",
+        "technology4": "Liveness Detection: Liveness Detection technology helps prevent the use of fake faces for identity verification. "
+      },
+      "benefit": {
+        "title": "Our benefits",
+        "item1": {
+          "title": "Benefits from eKYC technology for serving users",
+          "benefit1": "With only a computer or phone with a camera attached and connected to the Internet, customers can register to open an account and credit card anywhere without having to go to the bank to transact during business hours.",
+          "benefit2": "Helps customers save time and money on traveling to banks or financial institutions to verify their identity. Customers can complete the verification process quickly and conveniently on their mobile device or computer.",
+          "benefit3": "Helps secure customer information, reducing the risk of customer information leaks because the verification process is performed online and data is stored in secure databases."
+        },
+        "item2": {
+          "title": "Benefits from eKYC technology for businesses and organizations",
+          "subtitle": "With the application of modern technology, eKYC brings great benefits for both customers and organizations providing products and services.",
+          "benefit1": "Cost savings.",
+          "benefit2": "Increase user experience.",
+          "benefit3": "Enhance user data security."
+        }
+      }
+    },
+    "ocr_detail": {
+      "title": "OCR",
+      "subtitle": "Optical Character Recognition",
+      "description": "OCR (Số hóa dữ liệu) là sản phẩm đem lại nhiều tiện ích trong lĩnh vực tài chính khi kết hợp với eKYC để đem lại kết quả tốt hơn.",
+      "definition": {
+        "title": "What is OCR?",
+        "description": "OCR - Optical Character Recognition. This is a technical application used to read text from image files. This technology is called a digital scanning tool for character recognition, handwriting, or typing, specifically used for transmitting and inputting data. Especially, OCR has digital capabilities in various forms of documents: invoices, passports, business cards, documents, etc.",
+        "description2": "In OCR, digital text, search, and editing will be done electronically. And they save document storage space by displaying directly."
+      },
+
+      "why": {
+        "question": "Why should you use OCR?",
+        "because1": "OCR may help blind and visually impaired individuals, as they have an impact on their vision. In addition, OCR can scan and read words on the screen. From here, people with vision problems can easily understand them.",
+        "because2": "OCR can create its own document scanning text content, making it easy to search and locate documents based on keywords. At the same time, OCR also allows for greater flexibility in editing and processing text.",
+        "because3": "OCR ensures efficient and fast improved functionality for office work as well as high productivity. Because, most of the time when working in the office, the need to scan (scan) documents is increasing day by day. This will help save time and update data quickly and accurately for users."
+      },
+      "combine": {
+        "title": "Combine OCR with eKYC.",
+        "detail": "PAG's products combine OCR and eKYC customer identification to provide the optimal solution for businesses, providing accurate information much faster than using manual and reliable methods in verification. customer identity."
+      },
+      "benefit": {
+        "title": "Benefits of OCR technology when using our products",
+        "item1": {
+          "title": "OCR and practical applications",
+          "benefit1": "Perhaps, we have all used OCR at one time but didn't pay attention, because we usually only use it indirectly based on the scanner.",
+          "benefit2": "OCR is considered a software application that can be directly integrated into a computer or any piece of hardware.",
+          "benefit3": "OCR application software is being applied in many businesses in Vietnam, including IONE. IONE technology is an outstanding product of FSI - a leading enterprise in the field of digital transformation in Vietnam."
+        },
+        "item2": {
+          "title": "Outstanding advantages of IONE - a product applying OCR technology",
+          "benefit1": "Vietnamese language recognition accuracy up to 98%",
+          "benefit2": "Digitize diagrams and images with over 90% accuracy",
+          "benefit3": "Parallel processing, achieving 6s/page performance",
+          "benefit4": "Ready to integrate with customer systems",
+          "benefit5": "Machine learning mechanisms help the system automatically improve accuracy."
+        }
+      }
+    },
+    "callbot_detail": {
+      "title": "Callbot",
+      "subtitle": "Phone bots",
+      "description": "Callbot is an artificial intelligence application solution that is likened to a 'virtual operator'.",
+      "definition": {
+        "title": "What is Callbot?",
+        "description": "Callbot is a virtual operator built based on AI technology, capable of receiving or making incoming and outgoing calls with customers, and processing, classifying requests or supporting connection with customers. specialized departments in some cases.",
+        "description2": "Callbot applications are becoming a new trend, opening up opportunities for businesses with a large number of customers to enhance digitization and provide the best experience for customers."
+      },
+
+      "activities": {
+        "question": "How does Callbot work",
+        "action1": "Recognize and convert voice into text: The customer's dialogue will be recorded by the machine, then converted into written text (based on Speech-to-text STT technology) to serve as input data to the system.",
+        "action2": "Natural Language Understanding: The use of Natural Language Understanding (NLU) technology to analyze text to determine the intentions and entities involved.",
+        "action3": "Conversation management: The dialogue management system will compare the user's query with the database system and available scripts, to select the appropriate answer in written text form.",
+        "action4": "Convert text to speech: The text answer will be read by synthetic speech. From here, customers will receive call robot responses in the form of natural sentences, just like they interact with real people."
+      },
+      "benefit": {
+        "title": "Benefits of Callbot in improving work and business efficiency",
+        "item1": {
+          "title": "Improve customer relationships with 24/7 support",
+          "benefit1": "Due to advanced language and speech processing technology, as well as the integration of available database systems, Callbot can meet frequent customer requests in the shortest possible time, ensuring the accuracy of information.",
+          "benefit2": "With stable working performance 24/7, day or night, ready to serve customers at any time, callbot helps significantly improve customer experience."
+        },
+        "item2": {
+          "title": "Personalize customer experience",
+          "benefit1": "Currently, two core factors that customers care about when experiencing care services are speed and personalization. In terms of both of these factors, callbots are superior to IVRs.",
+          "benefit2": "Due to its ability to identify customers' needs and desires, Callot can effectively respond to customers."
+        }
+      }
+    },
+    "contact": {
+      "title": "contact",
+      "subtitle": "PAG -  Data Technology Company",
+      "subtitle2": "Contact Info",
+      "address": "Address",
+      "address2": "59 Huynh Dinh Hai, ward 14, Binh Thanh district, Ho Chi Minh city",
+      "phone": "Phone",
+      "phone2": "090 8501 090",
+      "email": "sale@pagvn.tech"
+    }
+  },
+  "footer": {
+    "phone": "090 8501 090",
+    "mail": "sale@pagvn.tech",
+    "address": "59 Huynh Dinh Hai, ward 14, Binh Thanh district, Ho Chi Minh city"
+  }
+}

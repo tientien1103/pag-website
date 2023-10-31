@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Technology() {
+function Technology({ page }: any) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -19,7 +19,7 @@ function Technology() {
         className="text-center text-2xl font-bold text-primary md:text-40"
         data-aos="zoom-in"
       >
-        Công nghệ & Tính năng
+        {page.home.technology.title}
       </h2>
       <div className="mt-16 space-y-28">
         <div
@@ -29,13 +29,10 @@ function Technology() {
         >
           <div className="flex max-w-[520px] flex-col  justify-center">
             <h3 className="my-4 text-center text-xl font-bold text-primary md:text-start md:text-3xl">
-              Deep Learning
+              {page.home.technology.item1.name}
             </h3>
             <p className="text-center text-base text-secondary md:text-start">
-              Bằng cách huấn luyện mô hình trên tập dữ liệu lớn, thuật toán Học
-              sâu có thể tự động mã hoá và ghi nhớ những thông tin đặc trưng,
-              đồng thời tự cải thiện kết quả, điều mà các thuật toán thông
-              thường không thể làm được.
+              {page.home.technology.item1.description}
             </p>
           </div>
           <Image
@@ -53,12 +50,10 @@ function Technology() {
         >
           <div className="flex max-w-[520px] flex-col justify-center md:text-right">
             <h3 className="my-4 text-center text-xl font-bold text-primary md:text-right md:text-3xl">
-              Big Data
+              {page.home.technology.item2.name}
             </h3>
             <p className="text-center text-base text-secondary md:text-right">
-              Hệ thống dữ liệu lớn (Big Data) lưu trữ hàng chục tỷ bản ghi dữ
-              liệu, được ứng dụng rộng rãi trong việc phân tích kinh doanh, giúp
-              đưa ra các thống kê và dự đoán về xu hướng trong tương lai.
+              {page.home.technology.item2.description}
             </p>
           </div>
           <Image

@@ -4,8 +4,9 @@ import Image from "next/image";
 import Logo from "@/components/common/Logo";
 import SocialIcon, { SocialIconProps } from "@/components/common/Social";
 import FooterMenu from "./Menu";
-import { FOOTER_SERVICES_MENU, FOOTER_WORK_MENU } from "@/consts/footer-menu";
 import Container from "@/components/common/Container";
+import { Locale } from "../../../../i18n.config";
+import { getDictionary } from "@/libs/dictionary";
 
 export interface INavigation {
   href: string;
@@ -26,7 +27,27 @@ export interface INavigation {
 //   },
 // ];
 
-export default function Footer() {
+export default async function Footer({ lang }: { lang: Locale }) {
+  const { navigation, footer } = await getDictionary(lang);
+
+  const NAVIGATION = [
+    {
+      href: `/${lang}`,
+      title: navigation.home,
+    },
+    {
+      href: `/${lang}/services`,
+      title: navigation.services,
+    },
+    {
+      href: `/${lang}/blogs`,
+      title: navigation.blog,
+    },
+    {
+      href: `/${lang}/contact`,
+      title: navigation.contact,
+    },
+  ];
   return (
     <footer className="relative w-full bg-primary">
       <Container>
@@ -42,39 +63,25 @@ export default function Footer() {
                 />
               </Link>
               <p className="text-lg font-bold leading-snug text-white">
-                sale@pagvn.tech
+                {footer.mail}
               </p>
               <p className="text-lg font-bold leading-snug text-white">
-                090 8501 090
+                {footer.phone}
               </p>
-              <p className="leading-snug text-white">
-                59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí
-                Minh
-              </p>
+              <p className="leading-snug text-white">{footer.address}</p>
               {/* <div className="flex gap-4">
               {SOCIAL_ICONS.map((item) => (
                 <SocialIcon key={item.variant} {...item} />
               ))}
             </div> */}
             </div>
-            {/* <div className="flex w-[360px] flex-col gap-6 md:mt-8">
-              
-              <p className="leading-snug text-white">
-                <span className="text-xl font-bold">VĂN PHÒNG ĐẠI DIỆN</span>
-                <br />
-                <span className="text-lg text-accent">
-                  59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ
-                  Chí Minh
-                </span>
-              </p>
-            </div> */}
           </div>
           <div className="mt-8 flex h-full items-start justify-start font-bold md:mt-0">
             {/* <FooterMenu
               className="hidden w-full md:block md:w-1/2"
               items={FOOTER_SERVICES_MENU}
             /> */}
-            <FooterMenu className="block w-full" items={FOOTER_WORK_MENU} />
+            <FooterMenu className="block w-full" items={NAVIGATION} />
           </div>
         </div>
       </Container>
