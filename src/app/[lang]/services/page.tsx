@@ -1,7 +1,7 @@
 import Container from "@/components/common/Container";
-import ApiHub from "@/components/services/ApiHub";
+import Callbot from "@/components/services/Callbot";
 import Ekyc from "@/components/services/Ekyc";
-import LeadScoring from "@/components/services/LeadScoring";
+import OCR from "@/components/services/OCR";
 import { getDictionary } from "@/libs/dictionary";
 import React from "react";
 import { Locale } from "../../../../i18n.config";
@@ -25,19 +25,19 @@ async function ServicePage({ params: { lang } }: { params: { lang: Locale } }) {
 
       <section className="mt-8 md:mt-20">
         <Container>
-          <Ekyc />
+          <Ekyc page={page} lang={lang} />
         </Container>
       </section>
 
       <section>
         <Container>
-          <ApiHub />
+          <Callbot page={page} lang={lang} />
         </Container>
       </section>
 
       <section>
         <Container>
-          <LeadScoring />
+          <OCR page={page} lang={lang} />
         </Container>
       </section>
     </main>

@@ -63,7 +63,7 @@ function Partnership({ page }: any) {
       </div>
       <div
         data-aos="fade-up-left"
-        className="mx-auto mt-12 grid grid-cols-2 gap-x-8 gap-y-5 md:grid-cols-6"
+        className="mx-auto mt-12 hidden grid-cols-2 gap-x-8 gap-y-5 md:grid md:grid-cols-6"
       >
         {partnerArr2.slice(7, 13).map((partner) => (
           <div key={partner.image} className="relative h-14 w-32">

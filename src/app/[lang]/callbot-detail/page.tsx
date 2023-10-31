@@ -12,13 +12,13 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
         <div className="container max-w-6xl">
           <div className="flex flex-col items-center gap-5">
             <h1 className="text-center text-5xl font-bold text-primary md:text-6xl">
-              {page.ocr_detail.title}
+              {page.callbot_detail.title}
             </h1>
             <p className="mdtext-3xl text-2xl font-bold text-primary">
-              {page.ocr_detail.subtitle}
+              {page.callbot_detail.subtitle}
             </p>
             <p className="mx-7 w-full text-center text-sm font-bold tracking-wider text-secondary md:mx-0 md:max-w-[500px] md:text-base md:tracking-normal">
-              {page.ocr_detail.description}
+              {page.callbot_detail.description}
             </p>
           </div>
         </div>
@@ -28,19 +28,19 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
         <Container className="flex flex-col-reverse justify-around lg:flex-row-reverse">
           <div className="mt-4 w-full space-y-5 px-5 md:mt-0 md:px-8 lg:max-w-[500px] lg:px-0">
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
-              {page.ocr_detail.definition.title}
+              {page.callbot_detail.definition.title}
             </h3>
             <p className="text-neutral-500">
-              {page.ocr_detail.definition.description}
+              {page.callbot_detail.definition.description}
             </p>
             <p className="text-neutral-500">
-              {page.ocr_detail.definition.description2}
+              {page.callbot_detail.definition.description2}
             </p>
           </div>
 
           <div className="relative h-[263px] w-full self-center md:w-[532px]">
             <Image
-              src="/img/ocr-detail/ocr1.webp"
+              src="/img/callbot-detail/callbot1.webp"
               alt=""
               fill
               className="object-contain"
@@ -51,21 +51,23 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
       </section>
 
       <section className="pt-24">
-        <div className="container mx-auto max-w-5xl space-y-20">
+        <div className="container mx-auto max-w-5xl">
           <div className="mx-5 mt-4 space-y-5 md:mt-0">
             <h3 className="text-center text-xl font-bold text-primary md:text-4xl">
-              {page.ocr_detail.why.question}
+              {page.callbot_detail.activities.question}
             </h3>
-            <p className="text-neutral-500">{page.ocr_detail.why.because1}</p>
-            <p className="text-neutral-500">{page.ocr_detail.why.because2}</p>
-            <p className="text-neutral-500">{page.ocr_detail.why.because3}</p>
-          </div>
-
-          <div className="mx-5 mt-4 space-y-5 md:mt-0">
-            <h3 className="text-center text-xl font-bold text-primary md:text-4xl">
-              {page.ocr_detail.combine.title}
-            </h3>
-            <p className="text-neutral-500">{page.ocr_detail.combine.detail}</p>
+            <p className="text-neutral-500">
+              {page.callbot_detail.activities.action1}
+            </p>
+            <p className="text-neutral-500">
+              {page.callbot_detail.activities.action2}
+            </p>
+            <p className="text-neutral-500">
+              {page.callbot_detail.activities.action3}
+            </p>
+            <p className="text-neutral-500">
+              {page.callbot_detail.activities.action4}
+            </p>
           </div>
         </div>
       </section>
@@ -73,12 +75,12 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
       <section className="py-24">
         <div className="container max-w-6xl">
           <h3 className="text-center text-xl font-bold text-primary md:text-3xl">
-            {page.ocr_detail.benefit.title}
+            {page.callbot_detail.benefit.title}
           </h3>
           <div className="mt-8 flex flex-col justify-around md:flex-row-reverse">
             <div className="relative h-[182px] w-[300px] self-center">
               <Image
-                src="/img/ocr-detail/ocr2.webp"
+                src="/img/callbot-detail/callbot2.webp"
                 alt=""
                 fill
                 className="object-contain"
@@ -87,17 +89,14 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             </div>
             <div className="mt-5 w-full space-y-5 md:mt-0 md:max-w-[500px] lg:max-w-[700px]">
               <h6 className="font-bold text-neutral-500">
-                {page.ocr_detail.benefit.item1.title}
+                {page.callbot_detail.benefit.item1.title}
               </h6>
               <ul className="ml-8 list-disc">
                 <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item1.benefit1}
+                  {page.callbot_detail.benefit.item1.benefit1}
                 </li>
                 <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item1.benefit2}
-                </li>
-                <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item1.benefit3}
+                  {page.callbot_detail.benefit.item1.benefit2}
                 </li>
               </ul>
             </div>
@@ -105,7 +104,7 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
           <div className="mt-16 flex flex-col justify-around md:flex-row">
             <div className="relative h-[215px] w-[394px] md:h-[350px] md:w-[550px] lg:h-[300px]">
               <Image
-                src="/img/ocr-detail/ocr3.webp"
+                src="/img/callbot-detail/callbot3.webp"
                 alt=""
                 fill
                 className="object-contain"
@@ -114,23 +113,14 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             </div>
             <div className="mt-5 max-w-[420px] space-y-5 md:mt-0 lg:mt-14">
               <h6 className="font-bold text-neutral-500">
-                {page.ocr_detail.benefit.item2.title}
+                {page.callbot_detail.benefit.item2.title}
               </h6>
               <ul className="ml-8 list-disc">
                 <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item2.benefit1}
+                  {page.callbot_detail.benefit.item2.benefit1}
                 </li>
                 <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item2.benefit2}
-                </li>
-                <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item2.benefit3}
-                </li>
-                <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item2.benefit4}
-                </li>
-                <li className="text-neutral-500">
-                  {page.ocr_detail.benefit.item2.benefit5}
+                  {page.callbot_detail.benefit.item2.benefit2}
                 </li>
               </ul>
             </div>

@@ -6,8 +6,9 @@ import Button from "../common/Button";
 import Image from "next/image";
 import Circle from "../common/Circle";
 import Link from "next/link";
+import { Locale } from "../../../i18n.config";
 
-function Ekyc() {
+function Ekyc({ page, lang }: { page: any; lang: Locale }) {
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -19,37 +20,25 @@ function Ekyc() {
   return (
     <div className="mx-6 flex flex-col-reverse gap-4 md:mx-0 md:gap-0 lg:flex-row lg:gap-52">
       <div className="mb-16 flex w-full flex-col gap-5 md:max-w-[670px] lg:max-w-[490px]">
-        <Link href="/ekyc-detail">
-          <h3
-            className="text-xl font-bold text-primary md:text-2xl"
-            data-aos="fade-right"
-          >
-            eKYC - Định danh khách hàng
-          </h3>
-        </Link>
+        <h3
+          className="text-xl font-bold text-primary md:text-2xl"
+          data-aos="fade-right"
+        >
+          {page.services.item1.name}
+        </h3>
+
         <div data-aos="fade-left" className="space-y-5">
           <p className="font-medium text-neutral-500">
-            eKYC là phương thức định danh khách hàng thông qua việc kiểm tra và
-            xác minh ảnh trong giấy tờ tùy thân được cung cấp khớp với nhận diện
-            của người dùng tại thời điểm trực tuyến bằng công nghệ nhận dạng
-            khuôn mặt, nhận diện sự sống và so khớp khuôn mặt dựa trên AI.
+            {page.services.item1.description}
           </p>
           <p className="font-medium text-neutral-500">
-            eKYC chứng thực thông tin khách hàng trong cơ sở dữ liệu gian lận
-            tín dụng và đưa ra những cảnh báo rủi ro đến các nhà cung cấp dịch
-            vụ.
-          </p>
-          <p className="font-medium text-neutral-500">
-            eKYC giúp giảm thiểu nguồn nhân lực, thuận tiện hơn rất nhiều trong
-            việc đơn giản hóa thủ tục, nâng cao trải nghiệm khách hàng, nâng cao
-            độ bảo mật, cũng như giúp chuyên viên tư vấn nhận diện được người
-            dùng, đồng thời giúp tiết kiệm chi phí cho doanh nghiệp.
+            {page.services.item1.description2}
           </p>
         </div>
         <div data-aos="fade-right">
-          <Link href="/ekyc-detail">
+          <Link href={`/${lang}/ekyc-detail`}>
             <Button className="mt-5 self-center md:self-start">
-              Tìm hiểu thêm
+              {page.common.button} &#8594;
             </Button>
           </Link>
         </div>
