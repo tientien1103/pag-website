@@ -42,7 +42,8 @@ function Media({ page, lang }: { page: any; lang: Locale }) {
             <CardBlog
               key={blog.title}
               name={blog.title || ""}
-              // url={blog.thumbnail?.url || ""}
+              url={blog.url || ""}
+              image={blog.image || ""}
               excerpt={blog.subTitle || ""}
             />
           );

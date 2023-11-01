@@ -4,20 +4,22 @@ import Link from "next/link";
 interface BlogProps {
   name: string;
   excerpt: string;
-  // url: string;
+  url: string;
+  image: string;
 }
 
-const CardBlog = ({ name, excerpt }: BlogProps) => {
+const CardBlog = ({ name, excerpt, url, image }: BlogProps) => {
   return (
     <Link
-      className="shadow-4xl flex flex-shrink-0 flex-col overflow-hidden rounded-md bg-white"
-      href={`#`}
+      className="flex flex-shrink-0 flex-col overflow-hidden rounded-md bg-white shadow-4xl"
+      href={url}
+      target="_blank"
     >
       <Image
         className="h-[230px] w-full object-cover"
         width={328}
         height={230}
-        src={`https://picsum.photos/seed/${Math.random()}/517.webp`}
+        src={image}
         alt=""
       />
       <div className="m-5 flex flex-col gap-2">

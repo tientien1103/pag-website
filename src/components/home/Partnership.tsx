@@ -1,5 +1,5 @@
 "use client";
-import { partnerArr, partnerArr2 } from "@/mockup/partners";
+import { partnerArr } from "@/mockup/partners";
 import Aos from "aos";
 import Image from "next/image";
 import React, { useEffect } from "react";
@@ -28,10 +28,10 @@ function Partnership({ page }: any) {
       </div>
       <div
         data-aos="fade-up-right"
-        className="mx-auto grid grid-cols-2 gap-x-8 gap-y-5 md:grid-cols-7"
+        className="mx-auto grid grid-cols-1 gap-x-14 gap-y-5 md:grid-cols-2"
       >
         {partnerArr.map((partner) => (
-          <div key={partner.image} className="relative h-14 w-32">
+          <div key={partner.image} className="relative h-20 w-44">
             <Image
               src={`/img/home/partner/${partner.image}.png`}
               fill
@@ -41,7 +41,7 @@ function Partnership({ page }: any) {
           </div>
         ))}
       </div>
-      <div data-aos="fade-up-left" className="relative my-14">
+      {/* <div data-aos="fade-up-left" className="relative my-14">
         <p className="flex h-full w-full whitespace-nowrap font-bold uppercase text-neutral-500 before:mr-10 before:block before:w-full before:translate-y-3 before:border-t-[0.5px] before:border-neutral-300 after:ml-10 after:block after:w-full after:translate-y-3 after:border-t-[0.5px] after:border-neutral-300">
           {page.home.partnership.subtitle2}
         </p>
@@ -75,7 +75,7 @@ function Partnership({ page }: any) {
             />
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

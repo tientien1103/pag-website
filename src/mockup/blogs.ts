@@ -3,76 +3,39 @@ import exp from "constants";
 interface Blogs {
   title: string;
   subTitle: string;
+  image: string;
+  url: string;
 }
 
 const BLogsList: Blogs[] = [
   {
-    title: "[funix.edu.vn] Lễ trao học bổng FUNiX AI connect with PAG",
+    title: "Ông Trương Gia Bình: 'Sẽ có giáo trình AI từ lớp 1'",
     subTitle:
-      "Chiều ngày 5/6 tại tầng 13 tòa nhà FPT đã diễn ra buổi lễ trao học bổng FUNiX AI Connect with PAG cho 10 sinh viên xuất sắc nhất với tổng giá trị lên đến 200 triệu. Tham gia buổi lễ có đại diện nhà tài trợ anh Nguyễn Thành Nhân – CEO PAG, anh […]",
+      "Chủ tịch FPT Trương Gia Bình cho biết sẽ hợp tác với các chuyên gia hàng đầu và đưa AI vào giáo trình giảng dạy cho học sinh, sinh viên Việt.",
+    image: "/img/blog/blog1.webp",
+    url: "https://vnexpress.net/ong-truong-gia-binh-se-co-giao-trinh-ai-tu-lop-1-4668630.html",
   },
   {
     title:
-      "[vnexpress.net] PAG cùng FUNiX phát triển nhân lực Machine Learning, Data Science",
+      "Ý tưởng thuyền vớt rác bằng AI của học sinh Hà Nội thắng giải 'Future Blue Innovation 2023'",
     subTitle:
-      "Học bổng tổng giá trị 200 triệu đồng, hướng đến đối tượng là sinh viên từ năm thứ ba, người đi làm trong các lĩnh vực công nghệ thông tin, khoa học tự nhiên, kỹ thuật, kinh tế. Trao học bổng AI Connect with PAG là hoạt động nằm trong khuôn khổ quỹ khuyến học hàng năm dành cho các trường đại học và viện nghiên cứu của PAG.",
+      "Sáng 23-9, 6 dự án của học sinh THPT xuất sắc vượt qua 1.500 hồ sơ cùng nhau tranh tài tại vòng chung kết cuộc thi Future Blue Innovation 2023 do Thành Đoàn Hà Nội, Đoàn thanh niên - Hội Sinh viên Đại học Quốc gia Hà Nội tổ chức.",
+    image: "/img/blog/blog2.webp",
+    url: "https://tuoitre.vn/y-tuong-thuyen-vot-rac-bang-ai-cua-hoc-sinh-ha-noi-thang-giai-future-blue-innovation-2023-20230923141824089.htm",
   },
   {
-    title:
-      "[cafef.vn] Dùng AI xây dựng giải pháp chấm điểm tín dụng Make in Vietnam ‘may đo’ cho doanh nghiệp Việt",
+    title: "Mỹ và cuộc đua quản lý trí tuệ nhân tạo",
     subTitle:
-      "Báo cáo mới đây nhất của Fitch Ratings cho biết: Đại dịch Covid-19 dẫn đến sự gia tăng các khoản nợ quá hạn. Các khoản nợ này đang đe dọa thu nhập của các ngân hàng Việt Nam và đà tăng trưởng vốn – khiến nhiều ngân hàng sẽ phải đối mặt với tình trạng thiếu vốn nếu điều kiện kinh tế vẫn tiếp tục suy yếu.",
+      "Tổng thống Mỹ Joe Biden vừa ký sắc lệnh hành pháp đầu tiên về trí tuệ nhân tạo (AI), trong lúc chính phủ nhiều nước cũng đang nỗ lực quản lý công nghệ đang phát triển 'quá nhanh, quá nguy hiểm' này.",
+    image: "/img/blog/blog3.webp",
+    url: "https://tuoitre.vn/my-va-cuoc-dua-quan-ly-tri-tue-nhan-tao-20231101094248546.htm",
   },
   {
-    title:
-      "Khởi động cuộc thi ”Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam”",
+    title: "Microsoft hé lộ Windows 12 tích hợp AI",
     subTitle:
-      "Kế hoạch tổ chức cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam” (PAG’s CreditScoring Challenge) vừa được chính thức công bố. Đây là cuộc thi do PAG – nền tảng cho vay thay thế tại Việt Nam, tổ chức với sự đồng hành của Công ty cổ phần Vay Mượn, […]",
-  },
-  {
-    title: "Chung kết Cuộc thi PAG’s Credit Scoring challenge",
-    subTitle:
-      "Ông Nguyễn Thành Nhân – CEO Công ty PAG Công nghệ học máy sẽ được sử dụng cho các giải pháp trong cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng” để xây dựng các mô hình chấm điểm tín dụng bởi có độ chính xác cao. Từ đó cho kết quả nhanh và […]",
-  },
-  {
-    title:
-      "Fintech là gì? Vai trò của Fintech đối với phát triển kinh tế Việt Nam",
-    subTitle:
-      "Fintech là gì? Fintech là một thuật ngữ tiếng Anh kết hợp giữa Financial Technology = Tài chính và Công nghệ. Thuật ngữ Fintech ra đời khi chuỗi các Startup lần lượt ra đời sau cuộc khủng hoảng tài chính năm 2008, những cuộc Cách mạng về công nghệ trong lĩnh vực tài chính đã […]",
-  },
-  {
-    title: "[funix.edu.vn] Lễ trao học bổng FUNiX AI connect with PAG",
-    subTitle:
-      "Chiều ngày 5/6 tại tầng 13 tòa nhà FPT đã diễn ra buổi lễ trao học bổng FUNiX AI Connect with PAG cho 10 sinh viên xuất sắc nhất với tổng giá trị lên đến 200 triệu. Tham gia buổi lễ có đại diện nhà tài trợ anh Nguyễn Thành Nhân – CEO PAG, anh […]",
-  },
-  {
-    title:
-      "[vnexpress.net] PAG cùng FUNiX phát triển nhân lực Machine Learning, Data Science",
-    subTitle:
-      "Học bổng tổng giá trị 200 triệu đồng, hướng đến đối tượng là sinh viên từ năm thứ ba, người đi làm trong các lĩnh vực công nghệ thông tin, khoa học tự nhiên, kỹ thuật, kinh tế. Trao học bổng AI Connect with PAG là hoạt động nằm trong khuôn khổ quỹ khuyến học hàng năm dành cho các trường đại học và viện nghiên cứu của PAG.",
-  },
-  {
-    title:
-      "[cafef.vn] Dùng AI xây dựng giải pháp chấm điểm tín dụng Make in Vietnam ‘may đo’ cho doanh nghiệp Việt",
-    subTitle:
-      "Báo cáo mới đây nhất của Fitch Ratings cho biết: Đại dịch Covid-19 dẫn đến sự gia tăng các khoản nợ quá hạn. Các khoản nợ này đang đe dọa thu nhập của các ngân hàng Việt Nam và đà tăng trưởng vốn – khiến nhiều ngân hàng sẽ phải đối mặt với tình trạng thiếu vốn nếu điều kiện kinh tế vẫn tiếp tục suy yếu.",
-  },
-  {
-    title:
-      "Khởi động cuộc thi ”Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam”",
-    subTitle:
-      "Kế hoạch tổ chức cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng tại Việt Nam” (PAG’s CreditScoring Challenge) vừa được chính thức công bố. Đây là cuộc thi do PAG – nền tảng cho vay thay thế tại Việt Nam, tổ chức với sự đồng hành của Công ty cổ phần Vay Mượn, […]",
-  },
-  {
-    title: "Chung kết Cuộc thi PAG’s Credit Scoring challenge",
-    subTitle:
-      "Ông Nguyễn Thành Nhân – CEO Công ty PAG Công nghệ học máy sẽ được sử dụng cho các giải pháp trong cuộc thi “Tìm kiếm giải pháp chấm điểm tín dụng” để xây dựng các mô hình chấm điểm tín dụng bởi có độ chính xác cao. Từ đó cho kết quả nhanh và […]",
-  },
-  {
-    title:
-      "Fintech là gì? Vai trò của Fintech đối với phát triển kinh tế Việt Nam",
-    subTitle:
-      "Fintech là gì? Fintech là một thuật ngữ tiếng Anh kết hợp giữa Financial Technology = Tài chính và Công nghệ. Thuật ngữ Fintech ra đời khi chuỗi các Startup lần lượt ra đời sau cuộc khủng hoảng tài chính năm 2008, những cuộc Cách mạng về công nghệ trong lĩnh vực tài chính đã […]",
+      "Giám đốc điều hành Microsoft Satya Nadella và Giám đốc sản phẩm Pavan Davuluri vừa hé lộ thông tin về Windows trong tương lai sẽ sử dụng AI (trí tuệ nhân tạo), tạm gọi là Windows 12, tại sự kiện Qualcomm giới thiệu Snapdragon X Elite, chip PC mới nhất.",
+    image: "/img/blog/blog4.webp",
+    url: "https://thanhnien.vn/microsoft-he-lo-windows-12-tich-hop-ai-185231027165638664.htm",
   },
 ];
 

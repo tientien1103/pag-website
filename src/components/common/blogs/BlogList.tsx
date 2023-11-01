@@ -41,8 +41,8 @@ function BlogList() {
             <CardBlog
               key={blog.title}
               name={blog.title || ""}
-              // url={blog.thumbnail?.url || ""}
-              // slug={blog.slug || ""}
+              url={blog.url || ""}
+              image={blog.image || ""}
               excerpt={blog.subTitle || ""}
             />
           );
