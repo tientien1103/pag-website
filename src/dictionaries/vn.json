@@ -8,10 +8,11 @@
 
   "page": {
     "common": {
-      "button": "Tìm hiểu thêm"
+      "button": "Tìm hiểu thêm",
+      "button2": "Đọc thêm"
     },
     "home": {
-      "title": "Vươn tới tương lai \n tài chính",
+      "title": "Vươn tới tương lai tài chính",
       "description": "Pag Tech là đối tác của những tổ chức tài chính hàng đầu, chúng tôi luôn coi uy tín là nhiệm vụ hàng đầu thể hiện qua chất lượng dịch vụ sản phẩm và luôn cam kết với Qúy khách hàng, đối tác, nhà đầu tư là không ngừng đổi mới để tạo ra giá trị khác biệt trong công việc.",
       "value": {
         "title": "Giá trị của chúng tôi",
@@ -64,8 +65,7 @@
       },
       "partnership": {
         "title": "Đối tác của PAG",
-        "subtitle1": "Cộng sự",
-        "subtitle2": "Khách hàng"
+        "subtitle1": "Khách hàng"
       },
       "media": {
         "title": "Truyền thông"
@@ -206,8 +206,8 @@
     }
   },
   "footer": {
-    "phone": "090 8501 090",
-    "mail": "sale@pagvn.tech",
-    "address": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh"
+    "phone": "Điện thoại: 090 8501 090",
+    "mail": "Email: sale@pagvn.tech",
+    "address": "Địa chỉ: 59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh"
   }
 }

@@ -2,20 +2,13 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  Fragment,
-  useCallback,
-  useEffect,
-  useLayoutEffect,
-  useState,
-} from "react";
+import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 
 import Menu from "./Menu";
 import Logo from "@/components/common/Logo";
 import Container from "@/components/common/Container";
 import { Locale } from "../../../../i18n.config";
 import LocaleSwitcher from "@/components/common/LocaleSwitcher";
-import { getDictionary } from "@/libs/dictionary";
 
 export default function NavBar({
   lang,
@@ -96,7 +89,7 @@ export default function NavBar({
           aria-label="Global"
         >
           <Link href={`/${lang}`}>
-            <Logo />
+            <Logo className="h-14 w-36 object-contain" />
           </Link>
           <Menu
             isOpen={mobileMenuOpen}
