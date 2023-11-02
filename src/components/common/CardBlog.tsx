@@ -23,10 +23,12 @@ const CardBlog = ({ name, excerpt, url, image }: BlogProps) => {
         alt=""
       />
       <div className="m-5 flex flex-col gap-2">
-        <h2 className="line-clamp-2 text-lg font-semibold text-primary lg:text-xl">
+        <h2 className="line-clamp-2 text-justify text-lg font-semibold text-primary lg:text-xl">
           {name}
         </h2>
-        <p className="text-darkGrey line-clamp-2 text-base">{excerpt}</p>
+        <p className="text-darkGrey line-clamp-2 text-justify text-base">
+          {excerpt}
+        </p>
       </div>
     </Link>
   );

@@ -53,7 +53,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
       <Container>
         <div className="flex flex-col-reverse items-start gap-4 md:w-[80%] md:flex-row md:items-center md:justify-between md:gap-7 md:py-10 lg:gap-36">
           <div className="flex flex-col gap-7 md:flex-row lg:gap-40">
-            <div className="w-full md:max-w-[300px]">
+            <div className="w-full md:max-w-[310px]">
               <Link href="/" className="-m-1.5 w-fit p-1.5">
                 <Logo
                   className="w-[90px] md:mb-6 md:w-[150px]"
@@ -62,13 +62,17 @@ export default async function Footer({ lang }: { lang: Locale }) {
                   height={46}
                 />
               </Link>
-              <p className="text-lg font-bold leading-snug text-white">
-                {footer.mail}
-              </p>
-              <p className="text-lg font-bold leading-snug text-white">
-                {footer.phone}
-              </p>
-              <p className="leading-snug text-white">{footer.address}</p>
+              <div className="space-y-2">
+                <p className="text-lg font-bold leading-snug text-white">
+                  {footer.mail}
+                </p>
+                <p className="text-lg font-bold leading-snug text-white">
+                  {footer.phone}
+                </p>
+                <p className="text-justify leading-snug text-white">
+                  {footer.address}
+                </p>
+              </div>
               {/* <div className="flex gap-4">
               {SOCIAL_ICONS.map((item) => (
                 <SocialIcon key={item.variant} {...item} />

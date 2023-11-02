@@ -24,10 +24,10 @@ function OCR({ page, lang }: { page: any; lang: Locale }) {
         </h3>
 
         <div data-aos="fade-left" className="space-y-5">
-          <p className="font-medium text-neutral-500">
+          <p className="text-justify font-medium text-neutral-500">
             {page.services.item3.description}
           </p>
-          <p className="font-medium text-neutral-500">
+          <p className="text-justify font-medium text-neutral-500">
             {page.services.item3.description2}
           </p>
         </div>

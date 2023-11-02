@@ -30,10 +30,10 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
               {page.callbot_detail.definition.title}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.definition.description}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.definition.description2}
             </p>
           </div>
@@ -56,16 +56,16 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-4xl">
               {page.callbot_detail.activities.question}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.activities.action1}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.activities.action2}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.activities.action3}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.callbot_detail.activities.action4}
             </p>
           </div>
@@ -92,10 +92,10 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
                 {page.callbot_detail.benefit.item1.title}
               </h6>
               <ul className="ml-8 list-disc">
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.callbot_detail.benefit.item1.benefit1}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.callbot_detail.benefit.item1.benefit2}
                 </li>
               </ul>
@@ -116,10 +116,10 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
                 {page.callbot_detail.benefit.item2.title}
               </h6>
               <ul className="ml-8 list-disc">
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.callbot_detail.benefit.item2.benefit1}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.callbot_detail.benefit.item2.benefit2}
                 </li>
               </ul>

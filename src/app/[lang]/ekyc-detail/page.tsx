@@ -38,14 +38,14 @@ async function EkycDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
               {page.ekyc_detail.kyc.question}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.kyc.definition}
             </p>
 
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
               {page.ekyc_detail.ekyc.question}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.ekyc.definition}
             </p>
           </div>
@@ -58,16 +58,16 @@ async function EkycDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-3xl">
               {page.ekyc_detail.technology.title}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.technology.technology1}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.technology.technology2}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.technology.technology3}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ekyc_detail.technology.technology4}
             </p>
           </div>
@@ -104,13 +104,13 @@ async function EkycDetail({ params: { lang } }: { params: { lang: Locale } }) {
                 {page.ekyc_detail.benefit.item1.title}
               </h6>
               <ul className="ml-10 list-disc">
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ekyc_detail.benefit.item1.benefit1}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ekyc_detail.benefit.item1.benefit2}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ekyc_detail.benefit.item1.benefit3}
                 </li>
               </ul>
@@ -130,9 +130,8 @@ async function EkycDetail({ params: { lang } }: { params: { lang: Locale } }) {
               <h6 className="font-bold text-neutral-500">
                 {page.ekyc_detail.benefit.item2.title}
               </h6>
-              <p>
+              <p className="text-justify">
                 {page.ekyc_detail.benefit.item2.subtitle}
-                {page.ekyc_detail.benefit.item1.benefit1}
               </p>
               <ul className="ml-10 list-disc">
                 <li className="text-neutral-500">
