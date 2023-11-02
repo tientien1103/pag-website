@@ -29,7 +29,7 @@ function ProductList({ page }: any) {
           <h3 className="text-3xl font-semibold text-primary">
             {page.home.services.item1.name}
           </h3>
-          <p className="text-base text-secondary">
+          <p className="text-justify text-base text-secondary">
             {page.home.services.item1.description}
           </p>
         </div>
@@ -37,7 +37,7 @@ function ProductList({ page }: any) {
           <h3 className="text-3xl font-semibold text-primary">
             {page.home.services.item2.name}
           </h3>
-          <p className="text-base text-secondary">
+          <p className="text-justify text-base text-secondary">
             {page.home.services.item2.description}
           </p>
         </div>
@@ -45,7 +45,7 @@ function ProductList({ page }: any) {
           <h3 className="text-3xl font-semibold text-primary">
             {page.home.services.item3.name}
           </h3>
-          <p className="text-base text-secondary">
+          <p className="text-justify text-base text-secondary">
             {page.home.services.item3.description}
           </p>
         </div>

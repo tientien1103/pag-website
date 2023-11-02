@@ -30,10 +30,10 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-start md:text-4xl">
               {page.ocr_detail.definition.title}
             </h3>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ocr_detail.definition.description}
             </p>
-            <p className="text-neutral-500">
+            <p className="text-justify text-neutral-500">
               {page.ocr_detail.definition.description2}
             </p>
           </div>
@@ -56,16 +56,24 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
             <h3 className="text-center text-xl font-bold text-primary md:text-4xl">
               {page.ocr_detail.why.question}
             </h3>
-            <p className="text-neutral-500">{page.ocr_detail.why.because1}</p>
-            <p className="text-neutral-500">{page.ocr_detail.why.because2}</p>
-            <p className="text-neutral-500">{page.ocr_detail.why.because3}</p>
+            <p className="text-justify text-neutral-500">
+              {page.ocr_detail.why.because1}
+            </p>
+            <p className="text-justify text-neutral-500">
+              {page.ocr_detail.why.because2}
+            </p>
+            <p className="text-justify text-neutral-500">
+              {page.ocr_detail.why.because3}
+            </p>
           </div>
 
           <div className="mx-5 mt-4 space-y-5 md:mt-0">
             <h3 className="text-center text-xl font-bold text-primary md:text-4xl">
               {page.ocr_detail.combine.title}
             </h3>
-            <p className="text-neutral-500">{page.ocr_detail.combine.detail}</p>
+            <p className="text-justify text-neutral-500">
+              {page.ocr_detail.combine.detail}
+            </p>
           </div>
         </div>
       </section>
@@ -90,13 +98,13 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
                 {page.ocr_detail.benefit.item1.title}
               </h6>
               <ul className="ml-8 list-disc">
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item1.benefit1}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item1.benefit2}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item1.benefit3}
                 </li>
               </ul>
@@ -117,19 +125,19 @@ async function OcrDetail({ params: { lang } }: { params: { lang: Locale } }) {
                 {page.ocr_detail.benefit.item2.title}
               </h6>
               <ul className="ml-8 list-disc">
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item2.benefit1}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item2.benefit2}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item2.benefit3}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item2.benefit4}
                 </li>
-                <li className="text-neutral-500">
+                <li className="text-justify text-neutral-500">
                   {page.ocr_detail.benefit.item2.benefit5}
                 </li>
               </ul>

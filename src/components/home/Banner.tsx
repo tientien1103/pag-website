@@ -22,10 +22,10 @@ function Banner({ page, lang }: { page: any; lang: Locale }) {
         className="mx-5 mt-10 flex flex-col justify-center gap-4 md:mx-24 md:mt-28 lg:mx-0"
         data-aos="fade-down-right"
       >
-        <h2 className="max-w-[500px] text-center text-4xl font-extrabold text-primary md:text-start md:text-6xl">
+        <h2 className="max-w-[510px] text-center text-4xl font-extrabold text-primary md:text-start md:text-6xl">
           {page.home.title}
         </h2>
-        <p className="w-full text-lg font-bold leading-6 text-secondary lg:max-w-[600px]">
+        <p className="w-full text-justify text-lg font-bold leading-6 text-secondary lg:max-w-[600px]">
           {page.home.description}
         </p>
         <Link href={`/${lang}/services`}>

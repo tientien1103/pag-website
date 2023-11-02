@@ -36,7 +36,10 @@ function Callbot({ page, lang }: { page: any; lang: Locale }) {
             {page.services.item2.name}
           </h3>
 
-          <p className="font-medium text-neutral-500" data-aos="fade-left">
+          <p
+            className="text-justify font-medium text-neutral-500"
+            data-aos="fade-left"
+          >
             {page.services.item2.description}
           </p>
           <div data-aos="fade-right">
