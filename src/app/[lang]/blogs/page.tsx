@@ -9,7 +9,7 @@ const BlogsPage = () => {
         <Container>
           <div className="mb-12 flex flex-col items-center gap-5 text-center lg:mb-20">
             <h1 className="text-4xl font-semibold text-primary lg:text-[54px]">
-              PAG blog
+              PAG BLOGS
             </h1>
           </div>
           <BlogList />

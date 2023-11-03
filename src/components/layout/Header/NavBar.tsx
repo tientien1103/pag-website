@@ -78,8 +78,9 @@ export default function NavBar({
       className={clsx(
         "relative inset-x-0 top-0 z-10 transition-colors duration-200",
         {
-          "sticky bg-white shadow-lg": isStickyHeader,
-          "absolute border-b-2 border-primary bg-transparent": !isStickyHeader,
+          "sticky bg-white shadow-lg": isStickyHeader || mobileMenuOpen,
+          "absolute border-b-2 border-primary bg-transparent":
+            !isStickyHeader && !mobileMenuOpen,
         }
       )}
     >
