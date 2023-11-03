@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import logo from "@/asset/logo.png";
-import logo_white from "@/asset/logo_white.png";
+import logo from "@/asset/logo.jpg";
+// import logo_white from "@/asset/logo_white.png";
 
 interface LogoProps {
   className?: string;
@@ -23,7 +23,7 @@ const Logo: React.FC<LogoProps> = ({
       priority
       width={width}
       height={height}
-      src={variant == "primary" ? logo : logo_white}
+      src={logo}
       alt="E9 Logo"
     />
   );

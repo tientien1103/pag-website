@@ -1,4 +1,4 @@
-import Partnership from "@/components/home/Partnership";
+// import Partnership from "@/components/home/Partnership";
 import Banner from "@/components/home/Banner";
 import Value from "@/components/home/Value";
 import ProductList from "@/components/home/ProductList";
@@ -31,7 +31,7 @@ export default async function Home({
 
       <section className="w-full py-28">
         <Container>
-          <ProductList page={page} />
+          <ProductList page={page} lang={lang} />
         </Container>
       </section>
 
@@ -42,16 +42,16 @@ export default async function Home({
       </section>
 
       <section className="w-full bg-gray-200 py-32">
-        <div className="container max-w-6xl">
+        <Container>
           <AboutUs page={page} />
-        </div>
+        </Container>
       </section>
 
-      <section className="w-full pt-36">
+      {/* <section className="w-full pt-36">
         <Container>
           <Partnership page={page} />
         </Container>
-      </section>
+      </section> */}
 
       <section className="w-full pt-36">
         <Container>

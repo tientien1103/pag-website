@@ -18,20 +18,40 @@ export default async function ContactPage({
             <h1 className="text-center text-5xl font-bold uppercase text-primary md:text-6xl">
               {page.contact.title}
             </h1>
-            <p className="text-sm font-bold text-primary md:text-base">
+            <p className="text-sm font-bold uppercase text-primary md:text-base">
               {page.contact.subtitle}
+            </p>
+            <p className="text-sm font-bold uppercase text-secondary md:text-base">
+              {" "}
+              {page.contact.description}
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-24">
         <Container className="flex flex-col gap-8 md:flex-row md:gap-5">
           <div className="space-y-4">
             <h3 className="leading-14 text-4xl text-primary">
               {page.contact.subtitle2}
             </h3>
 
+            <div className="space-y-2">
+              <p className="font-semibold text-secondary">
+                {page.contact.company}
+              </p>
+              <div className="flex gap-2">
+                <Image
+                  src="/svg/contact/company-icon.svg"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
+                <p className="max-w-[250px] uppercase text-neutral-600">
+                  {page.contact.company2}
+                </p>
+              </div>
+            </div>
             <div className="space-y-2">
               <p className="font-semibold text-secondary">
                 {page.contact.address}

@@ -1,10 +1,14 @@
 "use client";
 import Image from "next/image";
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
+import { Locale } from "../../../i18n.config";
+import Button from "../common/Button";
 
-function ProductList({ page }: any) {
+function ProductList({ page, lang }: { page: any; lang: Locale }) {
+  console.log(lang);
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -26,28 +30,34 @@ function ProductList({ page }: any) {
           className="flex max-w-[370px] flex-col gap-4"
           data-aos="fade-right"
         >
-          <h3 className="text-3xl font-semibold text-primary">
-            {page.home.services.item1.name}
-          </h3>
-          <p className="text-justify text-base text-secondary">
-            {page.home.services.item1.description}
-          </p>
+          <Link href={`/${lang}/ekyc-detail`}>
+            <h3 className="text-3xl font-semibold text-primary">
+              {page.home.services.item1.name}
+            </h3>
+            <p className="text-justify text-base text-secondary">
+              {page.home.services.item1.description}
+            </p>
+          </Link>
         </div>
         <div className="flex max-w-[360px] flex-col gap-4" data-aos="fade-up">
-          <h3 className="text-3xl font-semibold text-primary">
-            {page.home.services.item2.name}
-          </h3>
-          <p className="text-justify text-base text-secondary">
-            {page.home.services.item2.description}
-          </p>
+          <Link href={`/${lang}/callbot-detail`}>
+            <h3 className="text-3xl font-semibold text-primary">
+              {page.home.services.item2.name}
+            </h3>
+            <p className="text-justify text-base text-secondary">
+              {page.home.services.item2.description}
+            </p>
+          </Link>
         </div>
         <div className="flex max-w-[340px] flex-col gap-4" data-aos="fade-left">
-          <h3 className="text-3xl font-semibold text-primary">
-            {page.home.services.item3.name}
-          </h3>
-          <p className="text-justify text-base text-secondary">
-            {page.home.services.item3.description}
-          </p>
+          <Link href={`/${lang}/ocr-detail`}>
+            <h3 className="text-3xl font-semibold text-primary">
+              {page.home.services.item3.name}
+            </h3>
+            <p className="text-justify text-base text-secondary">
+              {page.home.services.item3.description}
+            </p>
+          </Link>
         </div>
       </div>
     </div>

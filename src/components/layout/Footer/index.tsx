@@ -53,15 +53,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
       <Container>
         <div className="flex flex-col-reverse items-start gap-4 md:w-[80%] md:flex-row md:items-center md:justify-between md:gap-7 md:py-10 lg:gap-36">
           <div className="flex flex-col gap-7 md:flex-row lg:gap-40">
-            <div className="w-full md:max-w-[310px]">
-              <Link href="/" className="-m-1.5 w-fit p-1.5">
-                <Logo
-                  className="w-[90px] md:mb-6 md:w-[150px]"
-                  variant="white"
-                  width={124}
-                  height={46}
-                />
-              </Link>
+            <div className="mt-6 w-full md:mt-0 md:max-w-[320px]">
+              <p className="mb-6 text-lg font-bold uppercase leading-snug text-white md:text-xl">
+                {footer.company}
+              </p>
               <div className="space-y-2">
                 <p className="text-lg font-bold leading-snug text-white">
                   {footer.mail}
