@@ -18,11 +18,10 @@ export default async function ContactPage({
             <h1 className="text-center text-5xl font-bold uppercase text-primary md:text-6xl">
               {page.contact.title}
             </h1>
-            <p className="text-sm font-bold uppercase text-primary md:text-base">
+            <p className="text-sm font-bold uppercase text-primary md:text-2xl">
               {page.contact.subtitle}
             </p>
             <p className="text-sm font-bold uppercase text-secondary md:text-base">
-              {" "}
               {page.contact.description}
             </p>
           </div>

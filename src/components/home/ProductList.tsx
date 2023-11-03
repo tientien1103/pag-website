@@ -8,7 +8,6 @@ import { Locale } from "../../../i18n.config";
 import Button from "../common/Button";
 
 function ProductList({ page, lang }: { page: any; lang: Locale }) {
-  console.log(lang);
   useEffect(() => {
     AOS.init({
       delay: 500,
@@ -20,7 +19,7 @@ function ProductList({ page, lang }: { page: any; lang: Locale }) {
   return (
     <div className="flex flex-col justify-between gap-12 md:flex-row">
       <h2
-        className="text-center text-2xl font-bold text-primary md:text-start md:text-4xl"
+        className="w-full text-center text-2xl font-bold text-primary md:max-w-[250px] md:text-start md:text-4xl"
         data-aos="zoom-in"
       >
         {page.home.services.title}
