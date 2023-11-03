@@ -23,7 +23,7 @@ function AboutUs({ page }: any) {
       </h2>
       <div className="mt-20 flex flex-col items-center font-medium md:mt-36 md:h-[300px] md:flex-row md:gap-10">
         <div className="group" data-aos="fade-right" data-aos-duration={400}>
-          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:py-24 group-hover:md:bg-primary">
+          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:h-[450px] md:py-24 group-hover:md:bg-primary">
             <Image
               src="/svg/home/us/us1.svg"
               alt=""
@@ -51,7 +51,7 @@ function AboutUs({ page }: any) {
         </div>
 
         <div className="group" data-aos="fade-up" data-aos-duration={400}>
-          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:py-24 group-hover:md:bg-primary">
+          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:h-[450px] md:py-24 group-hover:md:bg-primary">
             <Image
               src="/svg/home/us/us2.svg"
               alt=""
@@ -83,7 +83,7 @@ function AboutUs({ page }: any) {
           data-aos="fade-left"
           data-aos-duration={400}
         >
-          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:py-24 group-hover:md:bg-primary">
+          <div className="flex flex-col gap-8 rounded-xl px-2 py-8 md:h-[450px] md:py-24 group-hover:md:bg-primary">
             <Image
               src="/svg/home/us/us3.svg"
               alt=""

@@ -52,15 +52,15 @@
         "title": "Why choose us?",
         "item1": {
           "name": "Team of talented engineers",
-          "description": "Establish a dynamic and professional team of engineers with in-depth specialized knowledge."
+          "description": "We have a professional team of engineers with profound professional knowledge and long-term experience."
         },
         "item2": {
           "name": "AI technology",
-          "description": "Assist customers in applying new technologies with low cost and efficiency."
+          "description": "By applying advanced technology based on artificial intelligence, we can effectively solve customer problems at a low cost."
         },
         "item3": {
           "name": "Reputable solution",
-          "description": "PAG provides customers with comprehensive solutions in multiple fields."
+          "description": "Providing customers with comprehensive solutions with high transparency, security and reliability."
         }
       },
       "partnership": {
@@ -73,7 +73,9 @@
     },
     "services": {
       "title": "Services",
-      "subtitle": "eKyc - Flex - OCR",
+      "subtitle": "eKYC",
+      "subtitle1": "Callbot",
+      "subtitle2": "OCR",
       "item1": {
         "name": "eKYC - electronic Know Your Customer",
         "description": "EKYC (Electronic Know Your Customer) is a form of identity verification and authentication that uses application technology to verify customer identity based on collected customer photos, video portraits, and ID card data. Citizenship or passport, and verify with the database to confirm the customer's identity.",
@@ -185,19 +187,22 @@
         "item1": {
           "title": "Improve customer relationships with 24/7 support",
           "benefit1": "Due to advanced language and speech processing technology, as well as the integration of available database systems, Callbot can meet frequent customer requests in the shortest possible time, ensuring the accuracy of information.",
-          "benefit2": "With stable working performance 24/7, day or night, ready to serve customers at any time, callbot helps significantly improve customer experience."
+          "benefit2": "With stable working performance 24/7, day or night, ready to serve customers at any time, Callbot helps significantly improve customer experience."
         },
         "item2": {
           "title": "Personalize customer experience",
-          "benefit1": "Currently, two core factors that customers care about when experiencing care services are speed and personalization. In terms of both of these factors, callbots are superior to IVRs.",
+          "benefit1": "Currently, two core factors that customers care about when experiencing care services are speed and personalization. In terms of both of these factors, Callbots are superior to IVRs.",
           "benefit2": "Due to its ability to identify customers' needs and desires, Callot can effectively respond to customers."
         }
       }
     },
     "contact": {
       "title": "contact",
-      "subtitle": "PAG -  Data Technology Company",
+      "subtitle": "PAG - Service Trading Limited Liability Company",
+      "description": "Expert in data processing technology",
       "subtitle2": "Contact Info",
+      "company": "Name",
+      "company2": "PAG Service Trading Limited Liability Company",
       "address": "Address",
       "address2": "59 Huynh Dinh Hai, ward 14, Binh Thanh district, Ho Chi Minh city",
       "phone": "Phone",
@@ -206,6 +211,7 @@
     }
   },
   "footer": {
+    "company": "PAG Service Trading Limited Liability Company",
     "phone": "Phone: 090 8501 090",
     "mail": "Email: sale@pagvn.tech",
     "address": "Address: 59 Huynh Dinh Hai, ward 14, Binh Thanh district, Ho Chi Minh city"

@@ -5,6 +5,7 @@ import OCR from "@/components/services/OCR";
 import { getDictionary } from "@/libs/dictionary";
 import React from "react";
 import { Locale } from "../../../../i18n.config";
+import Link from "next/link";
 
 async function ServicePage({ params: { lang } }: { params: { lang: Locale } }) {
   const { page } = await getDictionary(lang);
@@ -16,9 +17,25 @@ async function ServicePage({ params: { lang } }: { params: { lang: Locale } }) {
             <h1 className="text-center text-5xl font-bold uppercase text-primary md:text-6xl">
               {page.services.title}
             </h1>
-            <p className="text-sm font-bold text-primary md:text-base">
-              {page.services.subtitle}
-            </p>
+            <div className="flex flex-row justify-center">
+              <p className="text-sm font-bold text-primary md:text-base">
+                <Link href={`/${lang}/ekyc-detail`}>
+                  <span>{page.services.subtitle}</span>
+                </Link>
+                <span className="mx-2">-</span>
+              </p>
+              <p className="text-sm font-bold text-primary md:text-base">
+                <Link href={`/${lang}/callbot-detail`}>
+                  <span> {page.services.subtitle1}</span>
+                </Link>
+                <span className="mx-2">-</span>
+              </p>
+              <Link href={`/${lang}/ocr-detail`}>
+                <p className="text-sm font-bold text-primary md:text-base">
+                  {page.services.subtitle2}
+                </p>
+              </Link>
+            </div>
           </div>
         </Container>
       </section>

@@ -1,13 +1,6 @@
 import React from "react";
-import { Metadata } from "next";
 import BlogList from "@/components/common/blogs/BlogList";
 import Container from "@/components/common/Container";
-
-export const metadata: Metadata = {
-  title: "Tips, Trends, & Exploring the Digital Frontier | E9 Digital Pulse",
-  description:
-    "Tips, Trends, & Exploring the Digital Frontier | E9 Digital Pulse",
-};
 
 const BlogsPage = () => {
   return (

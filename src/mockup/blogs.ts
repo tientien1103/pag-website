@@ -9,6 +9,14 @@ interface Blogs {
 
 const BLogsList: Blogs[] = [
   {
+    title:
+      "Nghị định 13 về bảo vệ dữ liệu cá nhân: Các ngân hàng kiến nghị có thời gian chuyển tiếp khi thực hiện",
+    subTitle:
+      "Nhóm công tác ngân hàng nước ngoài (BWG) và đại diện Hiệp hội Ngân hàng Việt Nam (VNBA) kiến nghị một lộ trình phù hợp để có thể triển khai Nghị định 13/2023/NĐ-CP bảo vệ dữ liệu cá nhân. Đồng thời, Bộ công an và Ngân hàng Nhà nước đưa ra thông tư liên bộ để giải thích hoặc có thể vận dụng cho nghị định này…",
+    image: "/img/blog/blog.webp",
+    url: "https://vneconomy.vn/nghi-dinh-13-ve-bao-ve-du-lieu-ca-nhan-cac-ngan-hang-kien-nghi-co-thoi-gian-chuyen-tiep-khi-thuc-hien.htm",
+  },
+  {
     title: "Ông Trương Gia Bình: 'Sẽ có giáo trình AI từ lớp 1'",
     subTitle:
       "Chủ tịch FPT Trương Gia Bình cho biết sẽ hợp tác với các chuyên gia hàng đầu và đưa AI vào giáo trình giảng dạy cho học sinh, sinh viên Việt.",

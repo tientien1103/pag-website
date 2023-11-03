@@ -79,7 +79,7 @@ export default function NavBar({
         "relative inset-x-0 top-0 z-10 transition-colors duration-200",
         {
           "sticky bg-white shadow-lg": isStickyHeader,
-          "absolute bg-transparent": !isStickyHeader,
+          "absolute border-b-2 border-primary bg-transparent": !isStickyHeader,
         }
       )}
     >
@@ -89,7 +89,7 @@ export default function NavBar({
           aria-label="Global"
         >
           <Link href={`/${lang}`}>
-            <Logo className="h-14 w-36 object-contain" />
+            <Logo className="h-10 w-36 object-contain" />
           </Link>
           <Menu
             isOpen={mobileMenuOpen}

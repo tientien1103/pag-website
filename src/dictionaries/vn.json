@@ -30,7 +30,7 @@
         },
         "item2": {
           "name": "Callbot",
-          "description": "Ứng dụng callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
+          "description": "Ứng dụng Callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
         },
         "item3": {
           "name": "OCR",
@@ -52,15 +52,15 @@
         "title": "Tại sao lựa chọn chúng tôi?",
         "item1": {
           "name": "Đội ngũ kỹ sư tài năng",
-          "description": "Xây dựng được đội ngũ kỹ sư năng động, chuyên nghiệp với kiến thức chuyên ngành chuyên sâu."
+          "description": "Sở hữu đội ngũ kỹ sư chuyên nghiệp với kiến thức chuyên sâu về chuyên môn và kinh nghiệm lâu năm."
         },
         "item2": {
           "name": "Công nghệ AI",
-          "description": "Giúp khách hàng ứng dụng các công nghệ mới một cách hiệu quả và chi phí thấp."
+          "description": "Vấn đề của khách hàng sẽ được giải quyết một cách hiệu quả với chi phí thấp bằng việc ứng dụng các công nghệ tiên tiến dựa trên nền tảng của trí tuệ nhân tạo."
         },
         "item3": {
           "name": "Giải pháp uy tín",
-          "description": "PAG mang đến cho khách hàng các giải pháp toàn diện trong nhiều lĩnh vực."
+          "description": "Mang đến cho khách hàng các giải pháp toàn diện có tính minh bạch, độ bảo mật và độ tin cậy cao."
         }
       },
       "partnership": {
@@ -73,7 +73,9 @@
     },
     "services": {
       "title": "Sản phẩm",
-      "subtitle": "eKyc - Flex - OCR",
+      "subtitle": "eKYC",
+      "subtitle1": "Callbot",
+      "subtitle2": "OCR",
       "item1": {
         "name": "eKYC - Định danh khách hàng",
         "description": "eKYC (viết tắt của electronic Know Your Customer) là hình thức định danh và xác thực khách hàng thông qua việc ứng dụng công nghệ để xác thực danh tính của khách hàng dựa trên các dữ liệu thu thập được là hình ảnh, video chân dung khách hàng và giấy tờ tùy thân của khách hàng là chứng minh nhân dân, căn cước công dân hoặc hộ chiếu và được đối chiếu với các cơ sở dữ liệu để xác nhận danh tính của khách hàng.",
@@ -170,7 +172,7 @@
       "definition": {
         "title": "Callbot là gì?",
         "description": "Callbot là một tổng đài viên ảo được xây dựng dựa trên công nghệ AI, có khả năng tiếp nhận hoặc thực hiện các cuộc gọi đến và đi với khách hàng, đồng thời xử lý, phân loại yêu cầu hoặc hỗ trợ nối máy với các bộ phận chuyên môn trong một số trường hợp.",
-        "description2": "Ứng dụng callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
+        "description2": "Ứng dụng Callbot đang trở thành xu hướng mới, mở ra cơ hội cho các doanh nghiệp vốn sở hữu lượng khách hàng lớn, muốn tăng cường số hóa nhằm mang đến cho khách hàng những trải nghiệm tốt nhất."
       },
 
       "activities": {
@@ -178,26 +180,29 @@
         "action1": "Nhận dạng và chuyển giọng nói thành văn bản: Câu thoại của khách hàng sẽ được máy ghi lại, sau đó chuyển thành văn bản chữ viết (dựa vào công nghệ Speech-to-text STT) để làm dữ liệu đầu vào của hệ thống.",
         "action2": "Hiểu ngôn ngữ tự nhiên: Văn bản chữ viết được tiến hành phân tích nhờ công nghệ hiểu ngôn ngữ tự nhiên (Natural Language Understanding – NLU) để xác định ý định và thực thể được đề cập tới.",
         "action3": "Quản lý hội thoại: Hệ thống quản lý hội thoại (dialog management) sẽ đối chiếu truy vấn của người dùng với hệ cơ sở dữ liệu và kịch bản có sẵn, nhằm lựa chọn câu trả lời phù hợp dưới dạng văn bản viết.",
-        "action4": "Chuyển văn bản thành giọng nói: Câu trả lời dạng văn bản sẽ được đọc bởi giọng nói tổng hợp. Từ đây, khách hàng nhận được phản hồi của callbot dưới dạng câu nói tự nhiên như đang tương tác với người thật."
+        "action4": "Chuyển văn bản thành giọng nói: Câu trả lời dạng văn bản sẽ được đọc bởi giọng nói tổng hợp. Từ đây, khách hàng nhận được phản hồi của Callbot dưới dạng câu nói tự nhiên như đang tương tác với người thật."
       },
       "benefit": {
         "title": "Lợi ích của Callbot trong nâng cao hiệu quả làm việc và kinh doanh",
         "item1": {
           "title": "Cải thiện quan hệ khách hàng nhờ những hỗ trợ liên tục, chính xác và 24/7",
-          "benefit1": "Nhờ tích hợp những công nghệ tiên tiến về xử lý ngôn ngữ và tiếng nói, cùng hệ cơ sở dữ liệu có sẵn, callbot có đủ năng lực để giải quyết các yêu cầu thường xuyên của khách hàng trong thời gian ngắn nhất, đảm bảo tính chính xác về thông tin.",
-          "benefit2": "Với hiệu suất làm việc ổn định suốt 24/7, bất kể ngày đêm, sẵn sàng phục vụ khách hàng bất cứ khi nào, callbot giúp cải thiện đáng kể trải nghiệm khách hàng."
+          "benefit1": "Nhờ tích hợp những công nghệ tiên tiến về xử lý ngôn ngữ và tiếng nói, cùng hệ cơ sở dữ liệu có sẵn, Callbot có đủ năng lực để giải quyết các yêu cầu thường xuyên của khách hàng trong thời gian ngắn nhất, đảm bảo tính chính xác về thông tin.",
+          "benefit2": "Với hiệu suất làm việc ổn định suốt 24/7, bất kể ngày đêm, sẵn sàng phục vụ khách hàng bất cứ khi nào, Callbot giúp cải thiện đáng kể trải nghiệm khách hàng."
         },
         "item2": {
           "title": "Cá nhân hóa trải nghiệm khách hàng",
-          "benefit1": "Hiện nay, hai yếu tố cốt lõi được khách hàng quan tâm khi trải nghiệm dịch vụ chăm sóc chính là tốc độ và tính cá nhân hóa. Xét về cả hai yếu tố này, callbot vượt trội hơn hẳn so với IVR.",
-          "benefit2": "Nhờ khả năng xác định nhu cầu, ý muốn của khách hàng, callbot có thể phản hồi hiệu quả, đúng trọng tâm, chạm đúng “nỗi đau” của khách hàng."
+          "benefit1": "Hiện nay, hai yếu tố cốt lõi được khách hàng quan tâm khi trải nghiệm dịch vụ chăm sóc chính là tốc độ và tính cá nhân hóa. Xét về cả hai yếu tố này, Callbot vượt trội hơn hẳn so với IVR.",
+          "benefit2": "Nhờ khả năng xác định nhu cầu, ý muốn của khách hàng, Callbot có thể phản hồi hiệu quả, đúng trọng tâm, chạm đúng “nỗi đau” của khách hàng."
         }
       }
     },
     "contact": {
       "title": "liên hệ",
-      "subtitle": "PAG - Công ty Công nghệ dữ liệu",
+      "subtitle": "PAG - Công ty TNHH thương mại dịch vụ PAG",
+      "description": "chuyên gia công nghệ xử lí dữ liệu",
       "subtitle2": "Thông tin liên hệ",
+      "company": "Tên",
+      "company2": "Công ty TNHH thương mại dịch vụ PAG",
       "address": "Địa chỉ",
       "address2": "59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh",
       "phone": "Điện thoại",
@@ -206,6 +211,7 @@
     }
   },
   "footer": {
+    "company": "Công ty TNHH thương mại dịch vụ PAG",
     "phone": "Điện thoại: 090 8501 090",
     "mail": "Email: sale@pagvn.tech",
     "address": "Địa chỉ: 59 Huỳnh Đình Hai, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh"
