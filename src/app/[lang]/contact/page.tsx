@@ -36,9 +36,6 @@ export default async function ContactPage({
             </h3>
 
             <div className="space-y-2">
-              <p className="font-semibold text-secondary">
-                {page.contact.company}
-              </p>
               <div className="flex gap-2">
                 <Image
                   src="/svg/contact/company-icon.svg"
@@ -95,7 +92,7 @@ export default async function ContactPage({
             </div>
           </div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.093552638515!2d106.69658797590611!3d10.804146558680062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c767f98de5%3A0x9be3dda1c0c12ff0!2zNTkgSHXhu7NuaCDEkMOsbmggSGFpLCBQaMaw4budbmcgMTQsIELDrG5oIFRo4bqhbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1697426051836!5m2!1svi!2s"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.373430417278!2d106.6991786!3d10.8041615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c767f98de1%3A0x6072c0ab4828059a!2zQ8O0bmcgVHkgVG5oaCBUaMawxqFuZyBN4bqhaSBE4buLY2ggVuG7pSBQYWc!5e0!3m2!1svi!2s!4v1699085097674!5m2!1svi!2s"
             allowFullScreen
             loading="lazy"
             className="h-[660px] w-full md:h-[450px] md:w-[800px]"

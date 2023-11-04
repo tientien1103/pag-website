@@ -87,8 +87,8 @@
       },
       "item3": {
         "name": "OCR - Công nghệ nhận dạng chữ",
-        "description": "Khá nhiều lần chúng ta nghe đến cụm từ OCR nhưng lại không thực sự hiểu ocr là gì? Nhiều người chỉ hình dung nó như một công nghệ được tích hợp trong máy scan để nâng cao khả năng nhận dạng. Thực tế, OCR là một thuật ngữ viết tắt của cụm từ Optical Character Recognition. Nó còn có tên gọi khác là nhận dạng ký tự quang học.",
-        "description2": "OCR chuyên dùng để nhập dữ liệu và truyền tải dữ liệu. Nhờ phần mềm nhận dạng chữ ocr, những văn bản số hóa, tìm kiếm và chỉnh sửa sẽ được thực hiện điện tử. Đồng thời, chúng giúp tiết kiệm không gian lưu trữ tài liệu bằng việc hiển thị trên trực tiếp."
+        "description": "Khá nhiều lần chúng ta nghe đến cụm từ OCR nhưng lại không thực sự hiểu OCR là gì? Nhiều người chỉ hình dung nó như một công nghệ được tích hợp trong máy scan để nâng cao khả năng nhận dạng. Thực tế, OCR là một thuật ngữ viết tắt của cụm từ Optical Character Recognition. Nó còn có tên gọi khác là nhận dạng ký tự quang học.",
+        "description2": "OCR chuyên dùng để nhập dữ liệu và truyền tải dữ liệu. Nhờ phần mềm nhận dạng chữ OCR, những văn bản số hóa, tìm kiếm và chỉnh sửa sẽ được thực hiện điện tử. Đồng thời, chúng giúp tiết kiệm không gian lưu trữ tài liệu bằng việc hiển thị trên trực tiếp."
       }
     },
     "ekyc_detail": {
