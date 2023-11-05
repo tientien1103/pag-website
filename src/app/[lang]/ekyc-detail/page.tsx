@@ -130,7 +130,7 @@ async function EkycDetail({ params: { lang } }: { params: { lang: Locale } }) {
               <h6 className="font-bold text-neutral-500">
                 {page.ekyc_detail.benefit.item2.title}
               </h6>
-              <p className="text-justify">
+              <p className="text-justify text-neutral-500">
                 {page.ekyc_detail.benefit.item2.subtitle}
               </p>
               <ul className="ml-10 list-disc">

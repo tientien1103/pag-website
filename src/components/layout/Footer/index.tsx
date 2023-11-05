@@ -85,7 +85,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
         </div>
       </Container>
       <p className="p-5 text-center text-xl text-white">
-        Copyright © {new Date().getFullYear()} PAG Tech
+        Copyright © {new Date().getFullYear()} PAG SERVICE TRADING CO., LTD
       </p>
     </footer>
   );
