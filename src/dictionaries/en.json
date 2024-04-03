@@ -130,7 +130,7 @@
     "ocr_detail": {
       "title": "OCR",
       "subtitle": "Optical Character Recognition",
-      "description": "OCR (Số hóa dữ liệu) là sản phẩm đem lại nhiều tiện ích trong lĩnh vực tài chính khi kết hợp với eKYC để đem lại kết quả tốt hơn.",
+      "description": "OCR (Data Digitization) is a product that brings many benefits in the financial sector when combined with eKYC to bring better results.",
       "definition": {
         "title": "What is OCR?",
         "description": "OCR - Optical Character Recognition. This is a technical application used to read text from image files. This technology is called a digital scanning tool for character recognition, handwriting, or typing, specifically used for transmitting and inputting data. Especially, OCR has digital capabilities in various forms of documents: invoices, passports, business cards, documents, etc.",
